@@ -1,0 +1,18 @@
+.team {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 0.75rem;
+  grid-auto-flow: row;
+  justify-items: center;
+  font-size: 1rem;
+
+  h1 {
+    font-size: 2.2em;
+    margin: 0;
+  }
+
+  img {
+    max-width: 22em;
+    border-radius: 50%;
+  }
+}

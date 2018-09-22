@@ -1,0 +1,77 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/assets
+public_folder: '/assets'
+
+collections:
+  - name: 'home'
+    label: 'Home page'
+    folder: 'src/pages/home'
+    create: true
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'news'
+    label: 'News'
+    folder: 'src/pages/news'
+    create: true
+    fields:
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          default: false,
+        }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'team'
+    label: 'Team'
+    folder: 'src/pages/team'
+    create: true
+    fields:
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          default: false,
+        }
+      - {
+          name: 'position',
+          label: 'Position on the team page',
+          widget: 'number',
+          required: true,
+          valueType: int,
+          min: 1,
+          max: 99,
+        }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'avatar', label: 'avatar', widget: 'image' }
+      - { name: 'body', label: 'Description', widget: 'markdown' }
+
+  - name: 'disciplines'
+    label: 'Disciplines'
+    folder: 'src/pages/disciplines'
+    create: true
+    fields:
+      - {
+          name: 'published',
+          label: 'Published',
+          widget: 'boolean',
+          default: false,
+        }
+      - {
+          name: 'position',
+          label: 'Position on the homepage page',
+          widget: 'number',
+          required: true,
+          valueType: int,
+          min: 1,
+          max: 9,
+        }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'body', label: 'Description', widget: 'markdown' }

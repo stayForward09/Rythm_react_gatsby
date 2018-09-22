@@ -1,0 +1,22 @@
+.Team {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  & .title {
+    text-align: center;
+
+    & h2 {
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      margin-bottom: 3.5rem;
+      color: var(--secondary);
+    }
+  }
+
+  & .TeamList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 3rem 2.2rem;
+  }
+}

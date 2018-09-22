@@ -1,0 +1,17 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+
+# DotEnv
+.env
+
+# Serverless Framework directories
+.serverless
+
+# Lighthouse-ci
+/lighthouse

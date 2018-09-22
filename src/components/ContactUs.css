@@ -1,0 +1,98 @@
+.ContactUs {
+  padding: 1.25rem 0;
+  background-color: var(--white-light);
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  & .form-group + .form-group {
+    margin-top: 1rem;
+  }
+
+  & input,
+  & textarea,
+  & select,
+  & button {
+    display: inline-block;
+    margin: 0em;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-align: start;
+    color: initial;
+    font-size: 1.1rem;
+  }
+
+  & input,
+  & select {
+    height: 2.8rem;
+  }
+
+  & input,
+  & textarea,
+  & select {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 0;
+    border: 2px solid rgba(10, 30, 35, 0.1);
+    border-radius: 3px;
+    background: var(--white-light);
+    color: var(--black);
+    font-weight: 400;
+    line-height: 1.7rem;
+    padding: 0.4rem 0.5rem;
+    outline-color: var(--primary-1);
+    transition: outline 0.2s ease-out;
+  }
+
+  & .button {
+    margin: 1.1rem 0;
+    display: inline-block;
+    align-self: flex-end;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 0.4rem 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.2);
+    cursor: pointer;
+    background: var(--primary-1);
+    color: var(--white-light);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.2s ease-in-out;
+
+    &:disabled {
+      cursor: not-allowed;
+      background: var(--white);
+      color: gray;
+    }
+  }
+
+  & .button:focus:not(:disabled),
+  & .button:hover:not(:disabled) {
+    --focus: hsla(var(--color-primary-1), 0.8);
+    text-decoration: none;
+    background-color: var(--focus);
+  }
+
+  & .button:active:not(:disabled) {
+    --active: hsla(var(--color-primary-1), 0.9);
+    box-shadow: none;
+    background-color: var(--active);
+  }
+}

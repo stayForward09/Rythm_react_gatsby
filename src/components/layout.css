@@ -1,0 +1,55 @@
+main {
+  position: relative;
+}
+
+h2.title + p.sub-title {
+  margin-top: -3.5rem;
+  margin-bottom: 3rem;
+}
+
+h2.title {
+  text-align: center;
+  font-size: 1.33rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+  margin: 1.4rem 0 2em;
+  color: var(--primary-2);
+
+  @media screen and (min-width: 600px) {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+}
+
+p.sub-title {
+  text-align: center;
+  font-size: 1rem;
+
+  color: var(--primary);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 1.2em;
+  margin: 0 auto;
+  display: block;
+}
+
+.App,
+.Home__content {
+  background-color: var(--white-light);
+}
+
+.Home__content {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 1s ease-in 1s;
+  will-change: opacity;
+}
+
+.ready .Home__content {
+  opacity: 1;
+  height: initial;
+}

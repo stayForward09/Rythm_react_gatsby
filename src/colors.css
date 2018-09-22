@@ -1,0 +1,32 @@
+:root {
+  --color-primary: 262, 66%, 46%;
+  --color-primary-1: 247, 91%, 67%;
+  --color-primary-2: 245, 80%, 59%;
+
+  --color-secondary: 262, 56%, 54%;
+  --color-primary-light: 282, 45%, 87%;
+
+  --color-white: 0, 0%, 93%;
+  --color-white-light: 0, 0%, 100%;
+  --color-black: 0, 0%, 18%;
+  --color-black-dark: 0, 0%, 7%;
+  --color-light-gray: 180, 7%, 96%;
+
+  --color-topbar: 257, 64%, 46%;
+  --color-body-background: 294, 31%, 47%;
+
+  --primary: hsl(var(--color-primary));
+  --primary-1: hsl(var(--color-primary-1));
+  --primary-2: hsl(var(--color-primary-2));
+  --secondary: hsl(var(--color-secondary));
+  --primary-light: hsl(var(--color-primary-light));
+  --light-gray: hsl(var(--color-light-gray));
+
+  --white: hsl(var(--color-white));
+  --white-light: hsl(var(--color-white-light));
+  --black: hsl(var(--color-black));
+  --black-dark: hsl(var(--color-black-dark));
+
+  --topbar: hsl(var(--color-topbar));
+  --body-background: hsl(var(--color-body-background));
+}
