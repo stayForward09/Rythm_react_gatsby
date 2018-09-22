@@ -1,0 +1,24 @@
+.Map {
+  position: relative;
+
+  & .gm-style .gm-style-iw {
+    color: var(--black);
+  }
+}
+
+.Map::before {
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  visibility: visible;
+  z-index: 10;
+  height: 100px;
+  top: -1px;
+  background-image: url('/img/curve-map.svg');
+  background-size: 3000px 100px;
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  transform: scaleY(-1);
+}

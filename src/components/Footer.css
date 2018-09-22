@@ -1,0 +1,14 @@
+.Footer {
+  padding: 2rem 0;
+  background-color: var(--light-gray);
+
+  & .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 400px;
+  }
+}

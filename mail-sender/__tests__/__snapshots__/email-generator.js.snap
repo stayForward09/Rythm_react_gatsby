@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailGenerator should generate an email object 1`] = `
+Object {
+  "Destination": Object {
+    "ToAddresses": Array [
+      "fake_recipient@mail.com",
+    ],
+  },
+  "Message": Object {
+    "Body": Object {
+      "Html": Object {
+        "Charset": "UTF-8",
+        "Data": "
+<html><head><title>RhythmicExcellence.london</title></head>
+  <body leftmargin=\\"0\\" marginwidth=\\"0\\" topmargin=\\"0\\" marginheight=\\"0\\" offset=\\"0\\">
+    <center>
+      <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" height=\\"100%\\" width=\\"100%\\" id=\\"bodyTable\\">
+        <tr><td align=\\"center\\" valign=\\"top\\" style=\\"padding-bottom:40px;\\">
+          <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" id=\\"templateContainer\\">
+            <tr><td align=\\"center\\" valign=\\"top\\" style=\\"padding-bottom:20px;\\">
+              <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" id=\\"templatePreheader\\"></table>
+            </td></tr>
+            <tr><td align=\\"center\\" valign=\\"top\\">
+              <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" id=\\"templateHeader\\">
+                <tr><td align=\\"center\\" valign=\\"top\\" style=\\"padding-top:20px; padding-bottom:20px;\\">
+                  <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+                    <tr><td class=\\"headerContent\\" mc:edit=\\"header_content\\">
+                      <h1>Hi RhythmicExcellence,<br />
+                        <span style=\\"font-size:30px\\">Heisenberg has just left you a message:</span>
+                      </h1>
+                      <br />
+                      Date: now<br/>
+                      From: heisenberg@crystal.blue<br/>
+                      Branch: Earth<br/>
+                    </td></tr>
+                  </table>
+                </td></tr>
+              </table>
+            </td></tr>
+            <tr><td align=\\"center\\" valign=\\"top\\">
+              <table border=\\"0\\" cellpadding=\\"40\\" cellspacing=\\"0\\" width=\\"600\\" id=\\"templateBody\\">
+                <tr><td align=\\"center\\" valign=\\"top\\" style=\\"padding-top:20px; padding-bottom:20px;\\">
+                  <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+                    <tr><td valign=\\"top\\" class=\\"upperBodyContent\\" mc:edit=\\"body_content01\\">
+                      Hello!
+                    </td></tr>
+                  </table>
+                </td></tr>
+              </table>
+            </td></tr>
+            <tr><td align=\\"center\\" valign=\\"top\\">
+              <table border=\\"0\\" cellpadding=\\"20\\" cellspacing=\\"0\\" width=\\"600\\" id=\\"templateFooter\\">
+                <tr><td align=\\"center\\" valign=\\"top\\" style=\\"padding-right:40px; padding-left:40px;\\">
+                  <table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\">
+                    <tr><td valign=\\"top\\" class=\\"footerContent\\" style=\\"border-top:1px solid #BBBBBB; padding-top:20px;\\" mc:edit=\\"footer_social\\"></td></tr>
+                    <tr><td valign=\\"top\\" class=\\"footerContent\\" style=\\"padding-top:20px;\\" mc:edit=\\"footer_utility\\">
+                      
+    This is an automatic e-mail generated from <a href=\\"http://www.rhythmicexcellence.london\\" target=\\"_blank\\">www.rhythmicexcellence.london</a><br/>
+    If you do not wish to continue receiving these messages or for other queries, plase contact your web administrator at: <a href=\\"mailto:andreasonny83@gmail.com\\" target=\\"_blank\\">andreasonny83@gmail.com</a>.
+                    </td></tr>
+                  </table>
+                </td></tr>
+              </table>
+            </td></tr>
+          </table>
+        </td></tr>
+      </table>
+    </center>
+  </body>
+</html>",
+      },
+      "Text": Object {
+        "Charset": "UTF-8",
+        "Data": "
+      From: heisenberg@crystal.blue <Heisenberg> <br/>
+      Date: now <br/>
+      Branch: Earth <br/>
+      Message: Hello! <br/>
+      Footer: 
+    This is an automatic e-mail generated from http://rhythmicexcellence.london<br/>
+    If you do not wish to continue receiving these messages or for other queries, plase contact your web administrator at: andreasonny83@gmail.com . <br/>
+      ",
+      },
+    },
+    "Subject": Object {
+      "Charset": "UTF-8",
+      "Data": "test email",
+    },
+  },
+  "Source": "fake_user@mail.com",
+}
+`;

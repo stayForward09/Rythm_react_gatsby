@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 20px;
+  color: #4a4a4a;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Lobster', Lucida Grande, sans-serif;
+}
+
+html,
+body {
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
