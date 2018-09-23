@@ -18,13 +18,28 @@ const NewsCard = ({ title, date, excerpt, slug }) => (
   </div>
 );
 
-export const LatestNews = props => {
+NewsCard.propTypes = {
+  title: propTypes.string.isRequired,
+  date: propTypes.string.isRequired,
+  excerpt: propTypes.string.isRequired,
+  slug: propTypes.string.isRequired,
+};
+
+export const LatestNews = ({ edges }) => {
   return (
     <div className="LatestNews">
       <h2 className="title">Latest News</h2>
       <div className="LatestNews__wrapper">
         <div className="LatestNews__cards__wrapper">
-          <NewsCard {...props} />
+          {edges.map((edge, index) => (
+            <NewsCard
+              key={`news--${index}`}
+              excerpt={edge.node && edge.node.excerpt}
+              title={edge.node && edge.node.frontmatter && edge.node.frontmatter.title}
+              date={edge.node && edge.node.frontmatter && edge.node.frontmatter.date}
+              slug={edge.node && edge.node.fields && edge.node.fields.slug}
+            />
+          ))}
         </div>
       </div>
     </div>
@@ -32,8 +47,5 @@ export const LatestNews = props => {
 };
 
 LatestNews.propTypes = {
-  title: propTypes.string.isRequired,
-  date: propTypes.string.isRequired,
-  excerpt: propTypes.string.isRequired,
-  slug: propTypes.string.isRequired,
+  edges: propTypes.any.isRequired,
 };
