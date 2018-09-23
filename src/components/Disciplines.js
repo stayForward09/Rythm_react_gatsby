@@ -29,15 +29,9 @@ export const Disciplines = ({ disciplines }) => (
           <Discipline
             key={key}
             title={
-              discipline.node &&
-              discipline.node.frontmatter &&
-              discipline.node.frontmatter.title
+              discipline.node && discipline.node.frontmatter && discipline.node.frontmatter.title
             }
-            link={
-              discipline.node &&
-              discipline.node.fields &&
-              discipline.node.fields.slug
-            }
+            link={discipline.node && discipline.node.fields && discipline.node.fields.slug}
           />
         ))) || <div>No discipline available. Try again later.</div>}
     </div>
