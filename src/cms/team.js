@@ -1,9 +1,13 @@
-const TeamPreview = createClass({
+import createClass from 'create-react-class';
+
+export const TeamPreview = createClass({
   render: function() {
-    const entry = this.props.entry
-    const title = entry.getIn(['data', 'title'])
-    const image = entry.getIn(['data', 'avatar'])
-    const body = this.props.widgetFor('body')
+    const h = window.h;
+    const entry = this.props.entry;
+
+    const title = entry.getIn(['data', 'title']);
+    const image = entry.getIn(['data', 'avatar']);
+    const body = this.props.widgetFor('body');
 
     return h(
       'div',
@@ -16,8 +20,6 @@ const TeamPreview = createClass({
         : null,
       h('h1', {}, title && title.toUpperCase()),
       h('p', { className: 'description' }, body)
-    )
+    );
   },
-})
-
-module.exports = { TeamPreview }
+});

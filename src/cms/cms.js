@@ -1,13 +1,11 @@
 import CMS from 'netlify-cms';
-// import { TeamPreview } from './team';
-// import AdminStyles from '!css-loader!sass-loader!./admin.scss'
-import AdminStyles from './admin.css';
-// import TeamStyles from './team.css';
 
-/**
- * https://www.netlifycms.org/docs/beta-features/#raw-css-in-registerpreviewstyle
- */
+import { TeamPreview } from './team';
 
-// CMS.registerPreviewTemplate('team', TeamPreview);
-// CMS.registerPreviewStyle(AdminStyles.toString(), { raw: true });
-// CMS.registerPreviewStyle(TeamStyles.toString(), { raw: true });
+import AdminCSS from '!css-loader!./admin.css';
+import TeamCSS from '!css-loader!./team.css';
+
+CMS.registerPreviewStyle(AdminCSS.toString(), { raw: true });
+CMS.registerPreviewStyle(TeamCSS.toString(), { raw: true });
+
+CMS.registerPreviewTemplate('team', TeamPreview);
