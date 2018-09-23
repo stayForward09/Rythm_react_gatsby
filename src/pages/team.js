@@ -32,7 +32,7 @@ class Team extends Component {
   render() {
     return (
       <Layout>
-        <div className="Team">
+        <div className="Team container">
           <div className="title">
             <span>Hi, have you met</span>
             <h2>OUR TEAM ?</h2>

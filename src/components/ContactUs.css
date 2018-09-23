@@ -51,7 +51,7 @@
     font-weight: 400;
     line-height: 1.7rem;
     padding: 0.4rem 0.5rem;
-    outline-color: var(--primary-1);
+    outline-color: var(--primary);
     transition: outline 0.2s ease-out;
   }
 
@@ -70,7 +70,7 @@
     border-radius: 3px;
     box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.2);
     cursor: pointer;
-    background: var(--primary-1);
+    background: var(--primary);
     color: var(--white-light);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -85,7 +85,7 @@
 
   & .button:focus:not(:disabled),
   & .button:hover:not(:disabled) {
-    --focus: hsla(var(--color-primary-1), 0.8);
+    --focus: hsla(var(--color-primary), 0.8);
     text-decoration: none;
     background-color: var(--focus);
   }

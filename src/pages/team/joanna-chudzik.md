@@ -5,7 +5,9 @@ title: Joanna (Asia) Chudzik
 avatar: /assets/joanna-chudzik.jpg
 ---
 
-UKCC Level 1 Coach, level 2 judge
+> UKCC Level 1 Coach
+>
+> Level 2 judge
 
 Asia started her adventure with Rhythmic Gymnastics at the age of 7. She
 trained under a watchful eye of Alicja Urbaniak in UKS Jantar in Gdynia,
