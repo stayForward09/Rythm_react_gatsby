@@ -21,17 +21,11 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
       {data.home.edges.map((edge, index) => (
         <Homepage key={`homepage--${index}`} node={edge.node} />
       ))}
-      {data.news.edges.map((edge, index) => (
-        <LatestNews
-          key={`news--${index}`}
-          excerpt={edge.node && edge.node.excerpt}
-          title={edge.node && edge.node.frontmatter && edge.node.frontmatter.title}
-          date={edge.node && edge.node.frontmatter && edge.node.frontmatter.date}
-          slug={edge.node && edge.node.fields && edge.node.fields.slug}
-        />
-      ))}
+
+      <LatestNews edges={data.news.edges} />
 
       <Disciplines disciplines={data.disciplines} />
+
       {onReady && (
         <Map
           isMarkerShown
@@ -42,7 +36,9 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
           mapElement={<div style={{ height: `100%` }} />}
         />
       )}
+
       <ContactUs />
+
       <Footer />
     </section>
   </div>
@@ -136,7 +132,7 @@ export const pageQuery = graphql`
     }
     news: allMarkdownRemark(
       filter: { fields: { category: { eq: "news" } } }
-      limit: 1
+      limit: 10
       sort: { fields: frontmatter___date, order: DESC }
     ) {
       edges {
