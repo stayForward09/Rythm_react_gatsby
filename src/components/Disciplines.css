@@ -3,6 +3,7 @@
   background-color: #7159fb;
   margin-top: 3rem;
   padding: 2em 0;
+  z-index: 10;
 
   &::before {
     content: '';

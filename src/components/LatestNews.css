@@ -1,6 +1,7 @@
 .LatestNews {
   display: block;
-  padding: 1rem 0;
+  padding: 1rem 0 0;
+  margin-bottom: -4rem;
 
   & .LatestNews__wrapper {
     display: block;
@@ -8,6 +9,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
     z-index: 9;
+    padding-bottom: 5em;
   }
 
   & .LatestNews__cards__wrapper {
