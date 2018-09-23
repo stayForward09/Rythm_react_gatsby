@@ -5,8 +5,13 @@ title: Stefano Sirianni
 avatar: /assets/stefano-sirianni.jpg
 ---
 
-Ballet Teacher – Dance Director and UKCC Level 2 Rhythmic Gymnastics Coach –
-Regional Judge
+> Ballet Teacher
+>
+> Dance Director
+>
+> UKCC Level 2 Rhythmic Gymnastics Coach
+>
+> Regional Judge
 
 Fun and experienced ballet and modern dance teacher to students of all skill
 levels and ages. Versatile and ambitious in a variety of dance idioms as a

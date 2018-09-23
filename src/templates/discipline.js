@@ -8,7 +8,7 @@ const DisciplinePage = ({ data }) => {
 
   return (
     <Layout>
-      <div>
+      <div className="container">
         <h2>{post.frontmatter.title}</h2>
         <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />

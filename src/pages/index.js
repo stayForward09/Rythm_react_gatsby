@@ -3,6 +3,7 @@ import propTypes from 'prop-types';
 
 import { Hero } from '../components/Hero';
 import { Homepage } from '../components/Homepage';
+import { LatestNews } from '../components/LatestNews';
 import { Disciplines } from '../components/Disciplines';
 import { Map } from '../components/Map';
 import { ContactUs } from '../components/ContactUs';
@@ -17,9 +18,19 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
   <div className={`App ${ready ? 'ready' : ''}`}>
     <Hero onReady={onReady} />
     <section className="Home__content">
-      {data.home.edges.map((edge, key) => (
-        <Homepage key={key} node={edge.node} />
+      {data.home.edges.map((edge, index) => (
+        <Homepage key={`homepage--${index}`} node={edge.node} />
       ))}
+      {data.news.edges.map((edge, index) => (
+        <LatestNews
+          key={`news--${index}`}
+          excerpt={edge.node && edge.node.excerpt}
+          title={edge.node && edge.node.frontmatter && edge.node.frontmatter.title}
+          date={edge.node && edge.node.frontmatter && edge.node.frontmatter.date}
+          slug={edge.node && edge.node.fields && edge.node.fields.slug}
+        />
+      ))}
+
       <Disciplines disciplines={data.disciplines} />
       {onReady && (
         <Map
@@ -58,15 +69,9 @@ class Index extends Component {
   }
 
   calculateZoomLevel() {
-    const zoom =
-      windowGlobal.innerWidth <= 600
-        ? 11
-        : windowGlobal.innerWidth <= 1100
-          ? 12
-          : 13;
+    const zoom = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
 
-    const height =
-      windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
+    const height = windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
 
     return {
       zoom,
@@ -119,14 +124,29 @@ export const pageQuery = graphql`
         }
       }
     }
-    home: allMarkdownRemark(
-      filter: { fields: { category: { eq: "home" } } }
-      limit: 1
-    ) {
+    home: allMarkdownRemark(filter: { fields: { category: { eq: "home" } } }, limit: 1) {
       edges {
         node {
           html
           frontmatter {
+            title
+          }
+        }
+      }
+    }
+    news: allMarkdownRemark(
+      filter: { fields: { category: { eq: "news" } } }
+      limit: 1
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM Do, YYYY")
             title
           }
         }

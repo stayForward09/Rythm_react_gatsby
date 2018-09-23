@@ -5,7 +5,9 @@ title: Francesca Fazzari
 avatar: /assets/francesca-fazzari.jpg
 ---
 
-UKCC Level 2 Rhythmic Gymnastics Coach, Level 2 judge
+> UKCC Level 2 Rhythmic Gymnastics Coach
+>
+> Level 2 Judge
 
 Francesca trained in Italy for ten years with Daniela Vergani and once senior
 she became part of her coaching team for 6 years.

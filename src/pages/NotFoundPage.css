@@ -1,0 +1,23 @@
+.NotFoundPage {
+  margin-top: -2rem;
+  min-height: calc(100vh - 5rem);
+  color: var(--black);
+  background-image: url('/img/404.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+
+  & header {
+    padding: 2rem 0;
+
+    & h2 {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+
+    & span {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+  }
+}

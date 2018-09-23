@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 const News = ({ data }) => (
   <Layout>
-    <div>
+    <div className="container">
       <h1>News</h1>
 
       {data.allMarkdownRemark.edges.map((news, id) => (
