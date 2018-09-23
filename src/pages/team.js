@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { TeamMember } from '../components/Team';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 

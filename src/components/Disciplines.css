@@ -38,18 +38,12 @@
       padding: 1.2rem;
       text-decoration: none;
       transition: all 250ms ease-in-out;
-      --opacity: 1;
-      --color: hsla(var(--color-black), var(--opacity));
 
-      color: var(--color);
+      color: var(--black);
 
       &:hover {
-        --opacity: 1;
-        --color: hsla(var(--black-dark), var(--opacity));
-        --background-color: hsla(var(--color-white-light), var(--opacity));
-
-        color: var(--color);
-        background-color: var(--background-color);
+        color: var(--primary);
+        background-color: var(--white-light);
         box-shadow: 0 3px 16px hsla(0, 0%, 4%, 0.5);
       }
     }
