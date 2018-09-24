@@ -60,6 +60,13 @@ module.exports = {
         name: 'home',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/legal`,
+        name: 'legal',
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-remark-relative-images',
     {

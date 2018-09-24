@@ -7,6 +7,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   const newsTemplate = path.resolve('src/templates/news.js');
   const disciplineTemplate = path.resolve('src/templates/discipline.js');
+  const legalTemplate = path.resolve('src/templates/legal.js');
 
   return graphql(`
     {
@@ -37,6 +38,8 @@ exports.createPages = ({ actions, graphql }) => {
         template = newsTemplate;
       } else if (node.fields && node.fields.category === 'discipline') {
         template = disciplineTemplate;
+      } else if (node.fields && node.fields.category === 'legal') {
+        template = legalTemplate;
       } else {
         return;
       }
@@ -63,11 +66,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       return;
     }
 
-    createNodeField({
-      name: 'slug',
-      node,
-      value,
-    });
+    if (/^.+\/legal\/.+/.test(node.fileAbsolutePath)) {
+      createNodeField({
+        name: 'slug',
+        node,
+        value: `/legal${value}`,
+      });
+    } else {
+      createNodeField({
+        name: 'slug',
+        node,
+        value,
+      });
+    }
 
     if (/^.+\/news\/.+/.test(node.fileAbsolutePath)) {
       // Dynamically add a `news` category to news posts
