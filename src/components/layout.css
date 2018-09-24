@@ -45,7 +45,7 @@ p.sub-title {
   opacity: 0;
   height: 0;
   overflow: hidden;
-  transition: opacity 1s ease-in 1s;
+  transition: opacity 750ms ease-in;
   will-change: opacity;
 }
 
