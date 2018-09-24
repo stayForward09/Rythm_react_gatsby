@@ -17,8 +17,7 @@
 
   & input,
   & textarea,
-  & select,
-  & button {
+  & select {
     display: inline-block;
     margin: 0em;
     text-rendering: auto;
@@ -56,43 +55,6 @@
   }
 
   & .button {
-    margin: 1.1rem 0;
-    display: inline-block;
     align-self: flex-end;
-    outline: 0;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    padding: 0.4rem 1.1rem;
-    text-align: center;
-    text-decoration: none;
-    border: 0;
-    border-radius: 3px;
-    box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.2);
-    cursor: pointer;
-    background: var(--primary);
-    color: var(--white-light);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transition: all 0.2s ease-in-out;
-
-    &:disabled {
-      cursor: not-allowed;
-      background: var(--white);
-      color: gray;
-    }
-  }
-
-  & .button:focus:not(:disabled),
-  & .button:hover:not(:disabled) {
-    --focus: hsla(var(--color-primary), 0.8);
-    text-decoration: none;
-    background-color: var(--focus);
-  }
-
-  & .button:active:not(:disabled) {
-    --active: hsla(var(--color-primary-1), 0.9);
-    box-shadow: none;
-    background-color: var(--active);
   }
 }
