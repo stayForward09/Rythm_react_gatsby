@@ -27,8 +27,6 @@ module.exports = {
               'nesting-rules': true,
               'color-mod-function': { unresolved: 'warn' },
             },
-            importFrom: ['src/reset.css', 'src/colors.css'],
-            // exportTo: ['src/layout-reset.css'],
           }),
         ],
       },

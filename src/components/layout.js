@@ -5,11 +5,13 @@ import { StaticQuery, graphql, withPrefix } from 'gatsby';
 
 import '../reset.css';
 import '../colors.css';
+import '../buttons.css';
 import './layout.css';
 
 import { Topbar } from '../components/Topbar';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import { CookiePolicy } from './CookiePolicy';
 
 const Layout = ({ children, location }) => {
   const isHomepage = location && location.pathname === withPrefix('/');
@@ -42,6 +44,7 @@ const Layout = ({ children, location }) => {
             {children}
             {!isHomepage && <Footer />}
           </main>
+          <CookiePolicy />
         </>
       )}
     />
