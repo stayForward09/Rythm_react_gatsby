@@ -2,12 +2,12 @@
   display: block;
   padding: 1rem 0 0;
   margin-bottom: -4rem;
+  overflow: hidden;
+  z-index: 9;
 
   & .LatestNews__wrapper {
     display: block;
-    position: relative;
-    overflow: hidden;
-    z-index: 9;
+    margin-bottom: -1em;
   }
 
   & .LatestNews__cards__wrapper {
