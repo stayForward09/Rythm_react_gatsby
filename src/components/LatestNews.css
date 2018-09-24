@@ -6,15 +6,16 @@
   & .LatestNews__wrapper {
     display: block;
     position: relative;
-    overflow-y: hidden;
-    overflow-x: scroll;
+    overflow: hidden;
     z-index: 9;
-    padding-bottom: 5em;
   }
 
   & .LatestNews__cards__wrapper {
     display: flex;
     flex-direction: row;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    padding-bottom: 5em;
   }
 
   & .LatestNews__card__wrapper {
@@ -23,6 +24,7 @@
     max-width: 600px;
     min-width: 300px;
     width: 100%;
+    scroll-snap-align: center;
 
     &:first-child {
       margin-left: auto;
