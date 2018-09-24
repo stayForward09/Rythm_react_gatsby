@@ -1,18 +1,33 @@
 .CookiePolicy {
   position: fixed;
-  bottom: 80px;
-  left: 30px;
-  width: 0;
+  bottom: 10px;
+  left: 10px;
   z-index: 500;
-  transition: bottom 0.25s ease-in-out;
+  opacity: 1;
+  transition: bottom 0.25s ease-in-out, opacity 0.25s ease-in-out;
+
+  &.fade-out {
+    opacity: 0;
+  }
+
+  @media screen and (min-width: 600px) {
+    left: 30px;
+    width: 0;
+    bottom: 80px;
+    right: initial;
+  }
 }
 
 .CookiePolicy__notification {
   position: static;
-  width: 400px;
+  width: calc(100% - 20px);
   margin-top: 20px;
   opacity: 1;
   z-index: 500;
+
+  @media screen and (min-width: 600px) {
+    width: 400px;
+  }
 }
 
 .CookiePolicy__notification__content {

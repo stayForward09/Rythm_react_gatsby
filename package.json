@@ -39,6 +39,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-burger-menu": "^2.5.2",
+    "react-cookie": "^3.0.4",
     "react-dom": "^16.5.1",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",

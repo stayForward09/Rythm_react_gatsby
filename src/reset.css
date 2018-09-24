@@ -20,6 +20,8 @@ html {
 html,
 body {
   min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -37,10 +39,12 @@ body {
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
-
-  &.no-scroll {
-    overflow-y: hidden;
-  }
+}
+body.no-scroll {
+  overflow-y: hidden;
+}
+h2 {
+  margin: 1em 0 0;
 }
 article,
 aside,
@@ -75,12 +79,10 @@ template {
 }
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
   text-decoration: underline dotted;
 }
 b,
 strong {
-  font-weight: inherit;
   font-weight: bolder;
 }
 dfn {
@@ -388,20 +390,12 @@ th {
   padding-top: 0.725rem;
   padding-bottom: calc(0.725rem - 1px);
 }
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-th:last-child,
-td:last-child {
-  padding-right: 0;
-}
 tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono',
-    'Liberation Mono', Menlo, Courier, monospace;
+  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono',
+    Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -422,4 +416,54 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: '';
+}
+table {
+  font-size: 0.8em;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 1.5;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+  font-weight: 600;
+  text-align: center;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-top: 1px solid #c6cbd1;
+  border-color: inherit;
+  background-color: #fff;
+}
+tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+@media all and (min-width: 800px) {
+  table {
+    font-size: 1em;
+  }
 }
