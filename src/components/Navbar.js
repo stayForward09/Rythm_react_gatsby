@@ -15,8 +15,8 @@ export const Navbar = () => (
     <Link to="/team" activeClassName="selected">
       Meet our team
     </Link>
-    <Link to="/bla" activeClassName="selected">
-      Not found
+    <Link to="/legal" activeClassName="selected">
+      Legal
     </Link>
   </BurgerMenu>
 );
