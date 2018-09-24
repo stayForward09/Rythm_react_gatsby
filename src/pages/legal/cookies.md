@@ -5,7 +5,7 @@ title: Cookies
 
 Please remember that your use of the Services is at all times subject to the [Terms of Use](/legal/terms-of-use) and [Privacy Policy](/legal/privacy-policy), which incorporate this Cookie Policy. Any terms we use in this Cookie Policy without defining them have the definitions given to them in the [Terms of Use](/legal/terms-of-use) and [Privacy Policy](/legal/privacy-policy).
 
-# Cookie Policy
+## Cookie Policy
 
 The Services use cookies and similar technologies such as pixel tags, web beacons, clear GIFs, JavaScript, and local storage. Cookies are small files – usually consisting of letters and numbers – placed on your computer, tablet, phone, or similar device, when you use that device to visit a Site. We will refer to cookies and similar technologies simply as “Cookies” for the remainder of this Cookie Policy. We use cookies to enable our servers to recognize your web browser and tell us how and when you visit and otherwise use the Services through the internet, to analyze trends, and to learn about our user base.
 
