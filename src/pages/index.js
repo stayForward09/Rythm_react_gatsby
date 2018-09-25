@@ -40,7 +40,7 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
 
       <ContactUs />
 
-      <Footer />
+      <Footer disciplines={data.disciplines.edges} legals={data.legals.edges} />
     </section>
   </div>
 );
@@ -144,6 +144,22 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM Do, YYYY")
+            title
+          }
+        }
+      }
+    }
+    legals: allMarkdownRemark(
+      filter: { fields: { category: { eq: "legal" } } }
+      sort: { fields: [frontmatter___position], order: ASC }
+      limit: 10
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
             title
           }
         }

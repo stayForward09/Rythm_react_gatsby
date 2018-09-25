@@ -1,6 +1,8 @@
 .Footer {
+  margin-top: 4rem;
   padding: 2rem 0;
-  background-color: var(--light-gray);
+  background-color: var(--black);
+  color: var(--white);
 
   & .content {
     display: flex;
@@ -10,5 +12,72 @@
     max-width: 1200px;
     margin: 0 auto;
     height: 400px;
+  }
+
+  & .grid__container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: minmax(280px, 1fr);
+
+    @media all and (min-width: 920px) {
+      grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+  }
+
+  & .grid__column {
+    text-align: center;
+
+    @media all and (min-width: 920px) {
+      text-align: initila;
+    }
+  }
+
+  & a {
+    color: var(--primary-2-light);
+    text-decoration: none;
+  }
+
+  & a:hover {
+    color: var(--primary-1);
+  }
+
+  & ul {
+    margin-left: 0;
+    & a {
+      text-decoration: none;
+    }
+  }
+
+  & li {
+    list-style: none;
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+  }
+
+  & .logo {
+    max-width: 140px;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  & .copy {
+    @media all and (min-width: 920px) {
+      text-align: left;
+      grid-column: span 2;
+    }
+  }
+
+  & .social {
+    & ul {
+      margin: 0;
+    }
+
+    & li {
+      display: inline-block;
+      margin: 0;
+    }
   }
 }

@@ -2,6 +2,7 @@
   --color-primary: 262, 66%, 46%;
   --color-primary-1: 247, 91%, 67%;
   --color-primary-2: 245, 80%, 59%;
+  --color-primary-2-light: 246, 78%, 86%;
 
   --color-secondary: 262, 56%, 54%;
   --color-primary-light: 282, 45%, 87%;
@@ -18,6 +19,7 @@
   --primary: hsl(var(--color-primary));
   --primary-1: hsl(var(--color-primary-1));
   --primary-2: hsl(var(--color-primary-2));
+  --primary-2-light: hsl(var(--color-primary-2-light));
   --secondary: hsl(var(--color-secondary));
   --primary-light: hsl(var(--color-primary-light));
   --light-gray: hsl(var(--color-light-gray));

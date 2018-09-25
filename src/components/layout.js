@@ -19,10 +19,42 @@ const Layout = ({ children, location }) => {
   return (
     <StaticQuery
       query={graphql`
-        query SiteTitleQuery {
-          site {
+        {
+          siteTitle: site {
             siteMetadata {
               title
+            }
+          }
+          disciplines: allMarkdownRemark(
+            filter: { fields: { category: { eq: "discipline" } } }
+            sort: { fields: [frontmatter___position], order: ASC }
+            limit: 10
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
+              }
+            }
+          }
+          legals: allMarkdownRemark(
+            filter: { fields: { category: { eq: "legal" } } }
+            sort: { fields: [frontmatter___position], order: ASC }
+            limit: 10
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
+              }
             }
           }
         }
@@ -30,7 +62,7 @@ const Layout = ({ children, location }) => {
       render={data => (
         <>
           <Helmet
-            title={data.site.siteMetadata.title}
+            title={data.siteTitle.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
@@ -42,7 +74,9 @@ const Layout = ({ children, location }) => {
             <Navbar />
             {!isHomepage && <Topbar />}
             {children}
-            {!isHomepage && <Footer />}
+            {!isHomepage && (
+              <Footer disciplines={data.disciplines.edges} legals={data.legals.edges} />
+            )}
           </main>
           <CookiePolicy />
         </>

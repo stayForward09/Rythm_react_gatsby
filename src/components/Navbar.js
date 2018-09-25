@@ -9,6 +9,9 @@ export const Navbar = () => (
     <Link exact="true" to="/" activeClassName="selected">
       Home
     </Link>
+    <Link to="/disciplines" activeClassName="selected">
+      Disciplines
+    </Link>
     <Link to="/news" activeClassName="selected">
       News
     </Link>
