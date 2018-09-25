@@ -2,13 +2,14 @@
   & h1 {
     margin: 0;
     color: var(--white);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
 
     @media all and (min-width: 420px) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
     @media all and (min-width: 600px) {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -28,7 +29,7 @@
 
   & .home-link {
     position: absolute;
-    top: 1em;
+    top: 0.9em;
     left: 1em;
     color: var(--white);
     text-decoration: none;

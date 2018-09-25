@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 import { withCookies, Cookies } from 'react-cookie';
 
 import './CookiePolicy.css';
 
 class CookiePolicyComponent extends Component {
   static propTypes = {
-    cookies: PropTypes.instanceOf(Cookies).isRequired,
+    cookies: propTypes.instanceOf(Cookies).isRequired,
   };
 
   constructor(props) {
@@ -31,7 +31,8 @@ class CookiePolicyComponent extends Component {
 
   render() {
     return (
-      !this.state.acceptedCookies && (
+      this.state &&
+      this.state.acceptedCookies === false && (
         <div className={`CookiePolicy${this.state.fadeOut ? ' fade-out' : ''}`}>
           <div className="CookiePolicy__notification">
             <div className="CookiePolicy__notification__content">
