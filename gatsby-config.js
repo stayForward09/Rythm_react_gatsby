@@ -67,6 +67,13 @@ module.exports = {
         name: 'legal',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/socials`,
+        name: 'socials',
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-remark-relative-images',
     {

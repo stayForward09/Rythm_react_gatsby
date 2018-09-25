@@ -11,16 +11,29 @@ collections:
     folder: 'src/pages/home'
     create: true
     fields:
-      - { name: 'published', label: 'Published', widget: 'boolean', default: false }
+      - { name: 'published', label: 'Published', widget: 'hidden', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
+
+  - name: 'socials'
+    label: 'Socials'
+    folder: 'src/pages/socials'
+    create: true
+    fields:
+      - { name: 'published', label: 'Published', widget: 'hidden', default: true }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - name: 'icon'
+        label: 'Icon'
+        widget: 'select'
+        options: ['Facebook', 'Twitter', 'Instagram']
+      - { name: 'link', label: 'Link', widget: 'string' }
 
   - name: 'news'
     label: 'News'
     folder: 'src/pages/news'
     create: true
     fields:
-      - { name: 'published', label: 'Published', widget: 'boolean', default: false }
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'date', label: 'Date', widget: 'datetime' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
@@ -30,7 +43,7 @@ collections:
     folder: 'src/pages/team'
     create: true
     fields:
-      - { name: 'published', label: 'Published', widget: 'boolean', default: false }
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - {
           name: 'position',
           label: 'Position on the team page',
@@ -49,7 +62,7 @@ collections:
     folder: 'src/pages/disciplines'
     create: true
     fields:
-      - { name: 'published', label: 'Published', widget: 'boolean', default: false }
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - {
           name: 'position',
           label: 'Position on the homepage page',
@@ -66,6 +79,6 @@ collections:
     folder: 'src/pages/legal'
     create: true
     fields:
-      - { name: 'published', label: 'Published', widget: 'boolean', default: false }
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true }
       - { name: 'title', label: 'Title', widget: 'string' }
       - { name: 'body', label: 'Body', widget: 'markdown' }
