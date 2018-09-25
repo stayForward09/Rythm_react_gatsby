@@ -18,9 +18,10 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
   <div className={`App ${ready ? 'ready' : ''}`}>
     <Hero onReady={onReady} />
     <section className="Home__content">
-      {data.home.edges.map((edge, index) => (
-        <Homepage key={`homepage--${index}`} node={edge.node} />
-      ))}
+      {data.home &&
+        data.home.edges.map((edge, index) => (
+          <Homepage key={`homepage--${index}`} node={edge.node} />
+        ))}
 
       <LatestNews edges={data.news.edges} />
 
