@@ -40,7 +40,11 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
 
       <ContactUs />
 
-      <Footer disciplines={data.disciplines.edges} legals={data.legals.edges} />
+      <Footer
+        disciplines={data.disciplines.edges}
+        legals={data.legals.edges}
+        socials={data.socials.edges}
+      />
     </section>
   </div>
 );
@@ -161,6 +165,22 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+          }
+        }
+      }
+    }
+    socials: allMarkdownRemark(
+      filter: { fields: { category: { eq: "socials" } } }
+      sort: { fields: [frontmatter___position], order: ASC }
+      limit: 10
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            position
+            icon
+            link
           }
         }
       }

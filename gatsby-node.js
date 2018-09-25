@@ -115,6 +115,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         node,
         value: 'legal',
       });
+    } else if (/^.+\/socials\/.+/.test(node.fileAbsolutePath)) {
+      // Dynamically add a `legal` category to team members
+      createNodeField({
+        name: 'category',
+        node,
+        value: 'socials',
+      });
     } else {
       createNodeField({
         name: 'category',

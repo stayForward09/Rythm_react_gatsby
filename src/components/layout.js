@@ -57,6 +57,22 @@ const Layout = ({ children, location }) => {
               }
             }
           }
+          socials: allMarkdownRemark(
+            filter: { fields: { category: { eq: "socials" } } }
+            sort: { fields: [frontmatter___position], order: ASC }
+            limit: 10
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  title
+                  position
+                  icon
+                  link
+                }
+              }
+            }
+          }
         }
       `}
       render={data => (
@@ -75,7 +91,11 @@ const Layout = ({ children, location }) => {
             {!isHomepage && <Topbar />}
             {children}
             {!isHomepage && (
-              <Footer disciplines={data.disciplines.edges} legals={data.legals.edges} />
+              <Footer
+                disciplines={data.disciplines.edges}
+                legals={data.legals.edges}
+                socials={data.socials.edges}
+              />
             )}
           </main>
           <CookiePolicy />

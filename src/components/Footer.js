@@ -1,10 +1,34 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { Link } from 'gatsby';
+import {
+  IoLogoGoogleplus,
+  IoLogoTwitter,
+  IoLogoFacebook,
+  IoLogoInstagram,
+  IoLogoYoutube,
+} from 'react-icons/io';
 
 import './Footer.css';
 
-export const Footer = ({ disciplines, legals }) => (
+const renderIcon = iconName => {
+  switch (iconName.toLowerCase()) {
+    case 'facebook':
+      return <IoLogoFacebook size="1.7em" />;
+    case 'twitter':
+      return <IoLogoTwitter size="1.7em" />;
+    case 'googleplus':
+      return <IoLogoGoogleplus size="1.7em" />;
+    case 'instagram':
+      return <IoLogoInstagram size="1.7em" />;
+    case 'youtube':
+      return <IoLogoYoutube size="1.7em" />;
+    default:
+      return;
+  }
+};
+
+export const Footer = ({ disciplines, legals, socials }) => (
   <div className="Footer">
     <div className="container">
       <div className="grid__container">
@@ -41,9 +65,18 @@ export const Footer = ({ disciplines, legals }) => (
         </div>
         <div className="grid__column social">
           <ul>
-            <li>facebbok1</li>
-            <li>facebbok2</li>
-            <li>facebbok3</li>
+            {socials.map((social, key) => (
+              <li key={`footer__social__${key}`}>
+                <a
+                  href={social.node.frontmatter.link}
+                  alt={social.node.frontmatter.title}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {renderIcon(social.node.frontmatter.icon)}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
@@ -54,4 +87,5 @@ export const Footer = ({ disciplines, legals }) => (
 Footer.propTypes = {
   disciplines: propTypes.any.isRequired,
   legals: propTypes.any.isRequired,
+  socials: propTypes.any.isRequired,
 };
