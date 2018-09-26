@@ -16,8 +16,8 @@ h1 {
 }
 
 h2.title + p.sub-title {
-  margin-top: -3.5rem;
-  margin-bottom: 3rem;
+  margin-top: -4rem;
+  margin-bottom: 2rem;
 }
 
 h2.title {
@@ -30,7 +30,6 @@ h2.title {
 
   @media screen and (min-width: 600px) {
     font-size: 2rem;
-    line-height: 3.5rem;
   }
 }
 

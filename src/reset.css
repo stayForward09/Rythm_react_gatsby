@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  font-family: Lucida Grande, sans-serif;
+  font-family: 'Raleway', Lucida Grande, sans-serif;
   color: var(--black);
   background-color: var(--white-light);
   font-size: 1rem;
@@ -220,10 +220,10 @@ img {
   padding-top: 0;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 1.4rem;
   margin-right: 0;
-  margin-top: 1.45rem;
-  margin-bottom: 1.45rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -394,8 +394,6 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono',
-    Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;

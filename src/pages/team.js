@@ -35,8 +35,8 @@ class Team extends Component {
       <Layout>
         <div className="Team container">
           <div className="title">
-            <span>Hi, have you met</span>
-            <h2>OUR TEAM ?</h2>
+            <p class="sub-title">Hi, have you met</p>
+            <h2 class="title">Our Team?</h2>
           </div>
 
           <div className="TeamList">
