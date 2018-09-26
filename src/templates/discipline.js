@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
+import './pages.css';
 
 const DisciplinePage = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -9,9 +10,9 @@ const DisciplinePage = ({ data }) => {
   return (
     <Layout>
       <div className="container">
-        <h2>{post.frontmatter.title}</h2>
+        <h2 className="title">{post.frontmatter.title}</h2>
         <p>{post.frontmatter.date}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="page" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   );
