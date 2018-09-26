@@ -12,6 +12,8 @@ title: Rhythmic Gymnastics
 * Creation of Individual and Group routines
 * Competitions
 
+![](/assets/rhythmic-gymnastic.jpeg)
+
 ## OUR TIMETABLE
 
 ### **East London**
