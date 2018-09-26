@@ -2,12 +2,13 @@
   & .title {
     text-align: center;
 
+    & .sub-title {
+      font-weight: 500;
+    }
+
     & h2 {
-      margin-bottom: 2rem;
+      margin-top: 0;
       font-size: 2.5rem;
-      line-height: 3rem;
-      margin-bottom: 3.5rem;
-      color: var(--secondary);
     }
   }
 

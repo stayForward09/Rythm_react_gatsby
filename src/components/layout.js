@@ -80,8 +80,15 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.siteTitle.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Rhythmic Gymnastic School in London' },
+              {
+                name: 'keywords',
+                content:
+                  'Rhythmic, Gymnastic, London, Rhythmic Gymnastic School, Rhythmic Gymnastic School in London, School in London, Rhythmic Gymnastic, Gymnastic School',
+              },
+              { name: 'author', content: 'RhythmicExcellence' },
+              { name: 'generator', content: 'RhythmicExcellence' },
+              { name: 'revisit-after', content: '1 month' },
             ]}
           >
             <html lang="en" />
