@@ -15,3 +15,6 @@ yarn-error.log
 
 # Lighthouse-ci
 /lighthouse
+
+# docz
+.docz
