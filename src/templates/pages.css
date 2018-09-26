@@ -1,0 +1,9 @@
+.page {
+  & img {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    margin: 2em auto;
+    display: block;
+  }
+}

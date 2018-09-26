@@ -1,3 +1,12 @@
+@keyframes wave {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 400%;
+  }
+}
+
 .Map {
   position: relative;
 
@@ -21,4 +30,10 @@
   background-position: center bottom;
   background-repeat: repeat-x;
   transform: scaleY(-1);
+  animation-name: wave;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
