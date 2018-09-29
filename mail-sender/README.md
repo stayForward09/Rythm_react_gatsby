@@ -14,8 +14,6 @@
 
 3.  **Run a local instance of the lambda function.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
     ```sh
     npm run dev
     ```

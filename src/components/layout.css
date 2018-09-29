@@ -24,8 +24,12 @@ h1 {
 }
 
 h2.title + p.sub-title {
-  margin-top: -4rem;
+  margin-top: -3rem;
   margin-bottom: 2rem;
+
+  @media all and (min-width: 600px) {
+    margin-top: -4rem;
+  }
 }
 
 h2.title {
@@ -36,7 +40,7 @@ h2.title {
   margin: 1.4rem 0 2em;
   color: var(--primary-2);
 
-  @media screen and (min-width: 600px) {
+  @media all and (min-width: 600px) {
     font-size: 2rem;
   }
 }
@@ -49,7 +53,7 @@ p.sub-title {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 960px;
   width: 100%;
   padding: 0 1.2em;
   margin: 0 auto;
