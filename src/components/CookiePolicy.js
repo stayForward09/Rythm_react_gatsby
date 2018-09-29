@@ -1,37 +1,43 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { withCookies, Cookies } from 'react-cookie';
 
 import './CookiePolicy.css';
 
 class CookiePolicyComponent extends Component {
-  static propTypes = {
-    cookies: propTypes.instanceOf(Cookies).isRequired,
-  };
-
-  constructor(props) {
-    super(props);
-    const { cookies } = props;
+  constructor() {
+    super();
 
     this.state = {
-      acceptedCookies: cookies.get('Accepted_cookies') || false,
+      acceptedCookies: true,
     };
 
     this.onAccept = this.onAccept.bind(this);
   }
 
+  componentDidMount() {
+    const { cookies } = this.props;
+
+    this.setState({
+      acceptedCookies: !!cookies.get('Accepted_cookies'),
+      fadeOut: false,
+    });
+  }
+
   onAccept() {
     const { cookies } = this.props;
-    cookies.set('Accepted_cookies', true, { path: '/' });
+
     this.setState({ fadeOut: true });
 
-    setTimeout(() => this.setState({ acceptedCookies: true }), 1000);
+    setTimeout(() => {
+      cookies.set('Accepted_cookies', true, { path: '/' });
+      this.setState({ acceptedCookies: true });
+    }, 1000);
   }
 
   render() {
     return (
-      this.state &&
       this.state.acceptedCookies === false && (
         <div className={`CookiePolicy${this.state.fadeOut ? ' fade-out' : ''}`}>
           <div className="CookiePolicy__notification">
@@ -58,5 +64,9 @@ class CookiePolicyComponent extends Component {
     );
   }
 }
+
+CookiePolicyComponent.propTypes = {
+  cookies: PropTypes.instanceOf(Cookies).isRequired,
+};
 
 export const CookiePolicy = withCookies(CookiePolicyComponent);
