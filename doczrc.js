@@ -1,5 +1,5 @@
-import { postCSSPlugin } from './docz-plugin-postcss';
+import { postCSSPlugin } from 'docz-plugin-postcss';
 
 export default {
-  plugins: [postCSSPlugin({ stage: 4 })],
+  plugins: [postCSSPlugin()],
 };

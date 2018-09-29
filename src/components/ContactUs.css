@@ -1,14 +1,20 @@
 .ContactUs {
   padding: 1.25rem 0;
-  background-color: var(--white-light);
 
   & form {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    padding: 0em;
+    border-radius: 8px;
+    background-color: var(--white-light);
+
+    @media all and (min-width: 600px) {
+      padding: 1.5em;
+      box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.16);
+    }
   }
 
   & .form-group + .form-group {
