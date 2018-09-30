@@ -58,6 +58,8 @@ export const Footer = ({ disciplines, legals, socials }) => (
         </div>
 
         <div className="grid__column copy">
+          <div className="version">RhythmicExcellence v{`${VERSION}`}</div>
+
           <div>
             &copy; Copyright 2018{' '}
             <a href="https://about.me/andreasonny83" target="_blank" rel="noopener noreferrer">
@@ -65,7 +67,6 @@ export const Footer = ({ disciplines, legals, socials }) => (
             </a>{' '}
             - All Rights Reserved
           </div>
-          <div className="version">RhythmicExcellence v{`${VERSION}`}</div>
         </div>
         <div className="grid__column social">
           <ul>

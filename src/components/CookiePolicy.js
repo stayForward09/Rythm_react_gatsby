@@ -31,7 +31,7 @@ class CookiePolicyComponent extends Component {
     this.setState({ fadeOut: true });
 
     setTimeout(() => {
-      cookies.set('Accepted_cookies', true, { path: '/' });
+      cookies.set('Accepted_cookies', true, { path: '/', maxAge: 86400 * 365 });
       this.setState({ acceptedCookies: true });
     }, 1000);
   }
