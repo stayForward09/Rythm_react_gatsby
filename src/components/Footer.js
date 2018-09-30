@@ -8,6 +8,7 @@ import {
   IoLogoInstagram,
   IoLogoYoutube,
 } from 'react-icons/io';
+import { VERSION } from '../config';
 
 import './Footer.css';
 
@@ -57,11 +58,14 @@ export const Footer = ({ disciplines, legals, socials }) => (
         </div>
 
         <div className="grid__column copy">
-          &copy; Copyright 2018{' '}
-          <a href="https://about.me/andreasonny83" target="_blank" rel="noopener noreferrer">
-            Sonny
-          </a>{' '}
-          - All Rights Reserved
+          <div>
+            &copy; Copyright 2018{' '}
+            <a href="https://about.me/andreasonny83" target="_blank" rel="noopener noreferrer">
+              Sonny
+            </a>{' '}
+            - All Rights Reserved
+          </div>
+          <div className="version">RhythmicExcellence v{`${VERSION}`}</div>
         </div>
         <div className="grid__column social">
           <ul>

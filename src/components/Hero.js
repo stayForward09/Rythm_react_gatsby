@@ -1,4 +1,4 @@
-import React, { Component, PureComponent } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import propTypes from 'prop-types';
 
@@ -34,7 +34,7 @@ HeroWrapper.propTypes = {
   onReady: propTypes.bool.isRequired,
 };
 
-class HeroComponent extends PureComponent {
+class HeroComponent extends Component {
   image = React.createRef();
 
   componentDidMount() {
