@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { API_ROOT } from '../api-config';
+import { API_ROOT } from '../config';
 
 import './ContactUs.css';
 
@@ -80,10 +80,8 @@ export class ContactUs extends Component {
   render() {
     const { name, email, branch, message, isWaiting } = this.state;
     const isSubmitEnabled =
-      [name, email, branch, message].reduce(
-        (prev, cur) => prev && this.validateField(cur),
-        true
-      ) && !isWaiting;
+      [name, email, branch, message].reduce((prev, cur) => prev && this.validateField(cur), true) &&
+      !isWaiting;
 
     return (
       <div className="ContactUs">
@@ -142,11 +140,7 @@ export class ContactUs extends Component {
                 onChange={this.handleFieldChange}
               />
             </div>
-            <button
-              type="submit"
-              className="button"
-              disabled={!isSubmitEnabled}
-            >
+            <button type="submit" className="button" disabled={!isSubmitEnabled}>
               Submit
             </button>
           </form>

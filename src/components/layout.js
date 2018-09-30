@@ -12,6 +12,7 @@ import { Topbar } from '../components/Topbar';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { CookiePolicy } from './CookiePolicy';
+import { SWBanner } from './SWBanner';
 
 const Layout = ({ children, location }) => {
   const isHomepage = location && location.pathname === withPrefix('/');
@@ -106,6 +107,7 @@ const Layout = ({ children, location }) => {
             )}
           </main>
           <CookiePolicy />
+          <SWBanner />
         </>
       )}
     />

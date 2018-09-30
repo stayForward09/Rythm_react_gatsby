@@ -1,0 +1,24 @@
+.SWBanner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+  background-color: var(--white-light);
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.15), 0 1px 5px rgba(0, 0, 0, 0.49);
+  transform: translateY(-101%);
+  transition: transform 1s linear;
+  z-index: 9999;
+
+  @media all and (min-width: 600px) {
+    width: 100%;
+  }
+
+  &.show {
+    transform: translateY(0);
+  }
+
+  & .click-here {
+    color: var(--primary-1);
+    cursor: pointer;
+  }
+}
