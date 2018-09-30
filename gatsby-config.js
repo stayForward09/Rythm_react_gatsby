@@ -87,6 +87,13 @@ module.exports = {
         name: 'socials',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/timetable`,
+        name: 'timetable',
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-remark-relative-images',
     {
