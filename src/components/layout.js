@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql, withPrefix } from 'gatsby';
+import { CookiesProvider } from 'react-cookie';
 
 import '../reset.css';
 import '../colors.css';
@@ -94,20 +95,22 @@ const Layout = ({ children, location }) => {
           >
             <html lang="en" />
           </Helmet>
-          <main>
-            <Navbar />
-            {!isHomepage && <Topbar />}
-            {children}
-            {!isHomepage && (
-              <Footer
-                disciplines={data.disciplines.edges}
-                legals={data.legals.edges}
-                socials={data.socials.edges}
-              />
-            )}
-          </main>
-          <CookiePolicy />
-          <SWBanner />
+          <CookiesProvider>
+            <main>
+              <Navbar />
+              {!isHomepage && <Topbar />}
+              {children}
+              {!isHomepage && (
+                <Footer
+                  disciplines={data.disciplines.edges}
+                  legals={data.legals.edges}
+                  socials={data.socials.edges}
+                />
+              )}
+            </main>
+            <CookiePolicy />
+            <SWBanner />
+          </CookiesProvider>
         </>
       )}
     />
