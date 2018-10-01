@@ -1,6 +1,6 @@
 ---
 published: true
-title: West London
+title: West Branch - Kensington
 monday: |-
   6-8 @Kensington Primary Academy (Squad, Rhythmic 1 and Rhythmic 2)\
   6-7 @Kensington Primary Academy (Baby group)
