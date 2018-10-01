@@ -1,26 +1,21 @@
 ---
 published: true
 title: West London
-monday: '6-8 @Haggerston School (Pre-Squad, Adults, Rhythmic 1)'
-tuesday: '6-8 @Haggerston School (Squad, Advance and Rhythmic 2)'
-wednesday: '6-8 @Haggerston School (Squad,Pre-Squad and Adults)'
-thursday: ''
-friday: 6-8 @Haggerston School (Advance and Adults)
-saturday: |-
-  1-6 @SpacE Hackney Community College (Squad)
-
-  1-3 @SpacE Hackney Community College (Advance) 1-4 Advance Level 3
-
-  3-6 @SpacE Hackney Community College (Pre-Squad)
-
-  3-5 @SpacE Hackney Community College (Adults – Competitive Only)
-
-  2-4 @SpacE Hackney Community College (Rhythmic 1)
-
-  4-6 @SpacE Hackney Community College (Rhythmic 2)
-sunday: |-
-  1-6 @SpacE Hackney Community College (Squad)
-
-  1-3 @SpacE Hackney Community College (Advance)
+monday: |-
+  6-8 @Kensington Primary Academy (Squad, Rhythmic 1 and Rhythmic 2)\
+  6-7 @Kensington Primary Academy (Baby group)
+tuesday: ''
+wednesday: ''
+thursday: |-
+  6-7 @Kensington Primary Academy (Baby group)\
+  7-8 @Kensington Primary Academy (Beginners)\
+  6-8 @Kensington Primary Academy (Rhythmic 2)
+friday: |-
+  6-8:30 @Kensington Primary Academy (Squad)\
+  6-8 @Kensington Primary Academy (Rhythmic 1)\
+  6-7 @Kensington Primary Academy (Beginners)\
+  7-8:30 @Kensington Primary Academy (Rhythmic 2)
+saturday: ''
+sunday: ''
 ---
 
