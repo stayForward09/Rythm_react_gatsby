@@ -5,9 +5,7 @@ date: 2018-08-10T17:10:00.000Z
 ---
 Our gymnasts Saffron and Dana accepted the invitation and attended a summer camp in Sofia (Bulgaria) on the first 10 days of August. The camp has been organised by Maria Gateva and hosted by her club Nuance.
 
-Our girls had the chance to practice with some of the best gymnast of our country (as Alida Bogdanova – GBR team and participant of 2016 European Championship and Hannah
-
- Martin – GBR team, teammates of Alida in 2016 and recently selected to represent the UK at the World Championship) while Stefano and Eleonora had the chance to attend some lectures taught by Maria herself.
+Our girls had the chance to practice with some of the best gymnast of our country (as Alida Bogdanova – GBR team and participant of 2016 European Championship and Hannah Martin – GBR team, teammates of Alida in 2016 and recently selected to represent the UK at the World Championship) while Stefano and Eleonora had the chance to attend some lectures taught by Maria herself.
 
 
 
