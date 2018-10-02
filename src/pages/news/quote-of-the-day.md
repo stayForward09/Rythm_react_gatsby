@@ -1,6 +1,10 @@
 ---
 published: true
-title: Quote of the day
-date: 2018-09-23T20:47:57.455Z
+title: 'GBR Junior National Squad '
+date: 2018-07-19T20:47:57.455Z
 ---
-> Don't cry because it's over, smile because it happened.
+> Well done to Saffron and her teammates Alice, Isabella and Leyla for working hard in Lilleshall at the National Sport Centre.
+>
+>
+>
+> ![](/assets/img_20180719_151004-e1532096327432.jpg)
