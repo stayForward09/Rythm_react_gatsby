@@ -1,15 +1,15 @@
 {
-  "name": "rhythmic-excellence-gatsby",
-  "description": "RhythmicExcellence website buit with Netlify-CMS",
+  "name": "rhythmicexcellence.london",
+  "description": "RhythmicExcellence website",
   "version": "1.1.0",
   "author": "andreasonny83 <andreasonny83@gmail.com>",
-  "homepage": "https://andreasonny83.github.io/rhythmic-excellence-gatsby",
+  "homepage": "https://github.com/RhythmicExcellence/rhythmicexcellence.london#readme",
   "bugs": {
-    "url": "https://github.com/andreasonny83/rhythmic-excellence-gatsby/issues"
+    "url": "https://github.com/RhythmicExcellence/rhythmicexcellence.london/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreasonny83/rhythmic-excellence-gatsby.git"
+    "url": "https://github.com/RhythmicExcellence/rhythmicexcellence.london.git"
   },
   "keywords": [
     "gatsby"
