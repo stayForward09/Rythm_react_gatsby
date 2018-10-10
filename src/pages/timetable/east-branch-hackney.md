@@ -1,7 +1,7 @@
 ---
 published: true
 title: East Branch - Hackney
-monday: '6-8 @Haggerston School (Pre-Squad, Adults, Rhythmic 1)'
+monday: '**18:00-20:00** @Haggerston School (Pre-Squad, Adults, Rhythmic 1)'
 tuesday: '6-8 @Haggerston School (Squad, Advance and Rhythmic 2)'
 wednesday: '6-8 @Haggerston School (Squad,Pre-Squad and Adults)'
 friday: 6-8 @Haggerston School (Advance and Adults)
