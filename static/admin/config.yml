@@ -44,13 +44,13 @@ collections:
     fields:
       - { name: 'published', label: 'Published', widget: 'hidden', default: true }
       - { name: 'title', label: 'Branch Name', widget: 'string' }
-      - { name: 'monday', label: 'Monday', widget: 'markdown', required: false }
-      - { name: 'tuesday', label: 'Tuesday', widget: 'markdown', required: false }
-      - { name: 'wednesday', label: 'Wednesday', widget: 'markdown', required: false }
-      - { name: 'thursday', label: 'Thursday', widget: 'markdown', required: false }
-      - { name: 'friday', label: 'Friday', widget: 'markdown', required: false }
-      - { name: 'saturday', label: 'Saturday', widget: 'markdown', required: false }
-      - { name: 'sunday', label: 'Sunday', widget: 'markdown', required: false }
+      - { name: 'monday', label: 'Monday', widget: 'text', required: false }
+      - { name: 'tuesday', label: 'Tuesday', widget: 'text', required: false }
+      - { name: 'wednesday', label: 'Wednesday', widget: 'text', required: false }
+      - { name: 'thursday', label: 'Thursday', widget: 'text', required: false }
+      - { name: 'friday', label: 'Friday', widget: 'text', required: false }
+      - { name: 'saturday', label: 'Saturday', widget: 'text', required: false }
+      - { name: 'sunday', label: 'Sunday', widget: 'text', required: false }
 
   - name: 'news'
     label: 'News'

@@ -1,0 +1,17 @@
+.Timetable {
+  display: grid;
+  grid-gap: 1rem;
+  grid-row-gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+}
+
+.Timetable__day + .Timetable__day {
+  margin-top: 1.25rem;
+}
+
+.Timetable__day {
+  & strong {
+    text-transform: capitalize;
+  }
+}
