@@ -12,14 +12,14 @@ export const Navbar = () => (
     <Link to="/disciplines" activeClassName="selected">
       Disciplines
     </Link>
-    <Link to="/news" activeClassName="selected">
-      News
+    <Link to="/timetable" activeClassName="selected">
+      Timetable
     </Link>
     <Link to="/team" activeClassName="selected">
       Meet our team
     </Link>
-    <Link to="/timetable" activeClassName="selected">
-      Our Timetable
+    <Link to="/news" activeClassName="selected">
+      News
     </Link>
     <Link to="/legal" activeClassName="selected">
       Legal
