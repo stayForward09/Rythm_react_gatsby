@@ -11,7 +11,7 @@ thursday: |-
   19:00-20:00 @Kensington Primary Academy (Beginners)
   18:00-20:00 @Kensington Primary Academy (Rhythmic 2)
 friday: |-
-  18:00-20:00:30 @Kensington Primary Academy (Squad)
+  18:00-20:30 @Kensington Primary Academy (Squad)
   18:00-20:00 @Kensington Primary Academy (Rhythmic 1)
   18:00-19:00 @Kensington Primary Academy (Beginners)
   19:00-20:30 @Kensington Primary Academy (Rhythmic 2)
