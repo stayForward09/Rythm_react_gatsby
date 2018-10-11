@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 
-import './Timetable.css';
+import './timetable.css';
 
 class Timetable extends PureComponent {
   render() {
@@ -27,21 +27,15 @@ class Timetable extends PureComponent {
                     'saturday',
                     'sunday',
                   ].map(day => {
-                    const dayTimetable = branchTimetable.node.frontmatter[day];
                     const key = `${day}-${branchTimetable.node.id}`;
+                    let dayTimetable = branchTimetable.node.frontmatter[day];
 
-                    // const dayTimetables = dayTimetable && dayTimetable.replace(/\n\r?/g, '<br />');
-
-                    // console.log(dayTimetables);
+                    dayTimetable = dayTimetable && dayTimetable.replace(/\n\r?/g, '<br />');
 
                     return (
                       <div className="Timetable__day" key={key}>
                         <strong>{day}</strong>
-                        {
-                          dayTimetable
-                          // &&
-                          // dayTimetables.map(body => <p key={body}>{dayTimetable}</p>)
-                        }
+                        <p dangerouslySetInnerHTML={{ __html: dayTimetable }} />
                       </div>
                     );
                   })}
