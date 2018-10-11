@@ -1,45 +1,81 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
-
+import React, { PureComponent } from 'react';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 
-const Timetable = ({ data }) => (
-  <Layout>
-    <div className="container">
-      <h1>Timetable</h1>
+import './Timetable.css';
 
-      {data.allMarkdownRemark.edges.map((news, id) => (
-        <div key={id}>
-          <h3>{news.node.frontmatter.title}</h3>
-          <span>Created on: {news.node.frontmatter.date}</span>
-          <div dangerouslySetInnerHTML={{ __html: news.node.excerpt }} />
-          <Link to={news.node.fields.slug}>Read more</Link>
-          <br />
-          <hr />
+class Timetable extends PureComponent {
+  render() {
+    const { data } = this.props;
+
+    return (
+      <Layout>
+        <div className="container">
+          <h2 className="title">Timetable</h2>
+
+          <div className="Timetable">
+            {data.allMarkdownRemark.edges.map(branchTimetable => (
+              <div key={`key-${branchTimetable.node.id}`}>
+                <h3 className="title">{branchTimetable.node.frontmatter.title}</h3>
+                <div>
+                  {[
+                    'monday',
+                    'tuesday',
+                    'wednesday',
+                    'thursday',
+                    'friday',
+                    'saturday',
+                    'sunday',
+                  ].map(day => {
+                    const dayTimetable = branchTimetable.node.frontmatter[day];
+                    const key = `${day}-${branchTimetable.node.id}`;
+
+                    // const dayTimetables = dayTimetable && dayTimetable.replace(/\n\r?/g, '<br />');
+
+                    // console.log(dayTimetables);
+
+                    return (
+                      <div className="Timetable__day" key={key}>
+                        <strong>{day}</strong>
+                        {
+                          dayTimetable
+                          // &&
+                          // dayTimetables.map(body => <p key={body}>{dayTimetable}</p>)
+                        }
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      ))}
-    </div>
-  </Layout>
-);
+      </Layout>
+    );
+  }
+}
 
 export default Timetable;
 
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fields: { category: { eq: "news" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 100
+      filter: { fields: { category: { eq: "timetable" } } }
+      sort: { fields: [frontmatter___title], order: DESC }
+      limit: 5
     ) {
       edges {
         node {
-          excerpt
-          fields {
-            slug
-          }
+          id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            monday
+            tuesday
+            wednesday
+            thursday
+            friday
+            saturday
+            sunday
           }
         }
       }

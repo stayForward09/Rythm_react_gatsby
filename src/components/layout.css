@@ -45,6 +45,13 @@ h2.title {
   }
 }
 
+h3.title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--primary-1);
+}
+
 p.sub-title {
   text-align: center;
   font-size: 1rem;

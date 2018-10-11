@@ -18,9 +18,9 @@ export const Navbar = () => (
     <Link to="/team" activeClassName="selected">
       Meet our team
     </Link>
-    {/* <Link to="/timetable" activeClassName="selected">
+    <Link to="/timetable" activeClassName="selected">
       Our Timetable
-    </Link> */}
+    </Link>
     <Link to="/legal" activeClassName="selected">
       Legal
     </Link>
