@@ -5,8 +5,6 @@ date: 2018-05-13T18:51:04.114Z
 ---
 Brilliant results from the Rose Cup, thanks to Nene Valley club and Vicky for inviting us!
 
-
-
 1′ Natalia L2 U8
 
 3′ Sandra L4 U12
@@ -28,4 +26,4 @@ Brilliant results from the Rose Cup, thanks to Nene Valley club and Vicky for in
 3′ Livia L3 U12
 
 \
-<https://www.instagram.com/p/BiwsNQ_FyHr/?utm_source=ig_embed>
+[Click here to see Instagram!](https://www.instagram.com/p/BiwsNQ_FyHr/?utm_source=ig_embed)
