@@ -8,7 +8,7 @@ friday: 6-8 @Haggerston School (Advance and Adults)
 saturday: |-
   1-6 @SpacE Hackney Community College (Squad)
 
-  1-3 @SpacE Hackney Community College (Advance) 1-4 Advance Level 3
+  1-3 @SpacE Hackney Community College (Advance) 1-4 Advanced Level 3
 
   3-6 @SpacE Hackney Community College (Pre-Squad)
 
