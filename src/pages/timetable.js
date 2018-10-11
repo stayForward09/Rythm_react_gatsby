@@ -30,7 +30,11 @@ class Timetable extends PureComponent {
                     const key = `${day}-${branchTimetable.node.id}`;
                     let dayTimetable = branchTimetable.node.frontmatter[day];
 
-                    dayTimetable = dayTimetable && dayTimetable.replace(/\n\r?/g, '<br />');
+                    if (!dayTimetable) {
+                      return null;
+                    }
+
+                    dayTimetable = dayTimetable.replace(/\n\r?/g, '<br />');
 
                     return (
                       <div className="Timetable__day" key={key}>
