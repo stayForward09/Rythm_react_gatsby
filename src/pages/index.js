@@ -18,10 +18,7 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
   <div className={`App ${ready ? 'ready' : ''}`}>
     <Hero onReady={onReady} />
     <section className="Home__content">
-      {data.home &&
-        data.home.edges.map((edge, index) => (
-          <Homepage key={`homepage--${index}`} node={edge.node} />
-        ))}
+      {data.home && data.home.edges.map(edge => <Homepage key={edge.node.id} node={edge.node} />)}
 
       <LatestNews edges={data.news.edges} />
 
@@ -71,7 +68,6 @@ class Index extends Component {
 
   calculateZoomLevel() {
     const zoom = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
-
     const height = windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
 
     return {
@@ -115,6 +111,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          id
           excerpt
           fields {
             slug
@@ -128,6 +125,7 @@ export const pageQuery = graphql`
     home: allMarkdownRemark(filter: { fields: { category: { eq: "home" } } }, limit: 1) {
       edges {
         node {
+          id
           html
           frontmatter {
             title
@@ -142,6 +140,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          id
           excerpt
           fields {
             slug
@@ -160,6 +159,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          id
           fields {
             slug
           }
@@ -176,6 +176,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          id
           frontmatter {
             title
             position

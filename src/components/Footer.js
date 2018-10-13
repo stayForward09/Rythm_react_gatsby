@@ -36,21 +36,38 @@ export const Footer = ({ disciplines, legals, socials }) => (
         <div className="grid__column">
           <img className="logo" src="/img/logo.png" alt="Rhythmic Excellence logo" />
         </div>
+
         <div className="grid__column">
           <h4>Disciplines</h4>
           <ul>
-            {disciplines.map((discipline, key) => (
-              <li key={`footer__discipline__${key}`}>
+            {disciplines.map(discipline => (
+              <li key={discipline.node.id}>
                 <Link to={discipline.node.fields.slug}>{discipline.node.frontmatter.title}</Link>
               </li>
             ))}
           </ul>
         </div>
+
+        <div className="grid__column">
+          <h4>Other Links</h4>
+          <ul>
+            <li>
+              <Link to="/timetable">Timetable</Link>
+            </li>
+            <li>
+              <Link to="/team">Meet our team</Link>
+            </li>
+            <li>
+              <Link to="/news">News</Link>
+            </li>
+          </ul>
+        </div>
+
         <div className="grid__column">
           <h4>Legal</h4>
           <ul>
-            {legals.map((legal, key) => (
-              <li key={`footer__legal__${key}`}>
+            {legals.map(legal => (
+              <li key={legal.node.id}>
                 <Link to={legal.node.fields.slug}>{legal.node.frontmatter.title}</Link>
               </li>
             ))}
@@ -70,8 +87,8 @@ export const Footer = ({ disciplines, legals, socials }) => (
         </div>
         <div className="grid__column social">
           <ul>
-            {socials.map((social, key) => (
-              <li key={`footer__social__${key}`}>
+            {socials.map(social => (
+              <li key={social.node.id}>
                 <a
                   href={social.node.frontmatter.link}
                   alt={social.node.frontmatter.title}

@@ -19,8 +19,12 @@
     grid-gap: 1em;
     grid-template-columns: minmax(280px, 1fr);
 
+    @media all and (min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     @media all and (min-width: 920px) {
-      grid-template-columns: repeat(3, minmax(280px, 1fr));
+      grid-template-columns: repeat(4, minmax(200px, 1fr));
     }
   }
 
@@ -82,6 +86,15 @@
       & a {
         display: block;
       }
+    }
+
+    @media all and (min-width: 600px) {
+      justify-self: center;
+      align-self: end;
+    }
+
+    @media all and (min-width: 920px) {
+      grid-column: auto/-1;
     }
   }
 
