@@ -155,6 +155,7 @@
       overflow-y: scroll;
       flex: 1 1 auto;
       font-size: 0.9em;
+      padding-top: 0.75rem;
 
       @media all and (min-width: 600px) {
         font-size: 1em;
