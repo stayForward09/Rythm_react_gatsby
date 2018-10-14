@@ -2,7 +2,7 @@
 published: true
 position: 4
 title: Joanna (Asia) Chudzik
-avatar: /assets/joanna-chudzik.jpg
+avatar: /assets/img_20181013_142003.jpg
 ---
 
 > UKCC Level 1 Coach
