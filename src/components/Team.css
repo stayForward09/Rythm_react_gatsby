@@ -76,6 +76,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    text-align: center;
   }
 
   & .TeamMember__container__picture img {
