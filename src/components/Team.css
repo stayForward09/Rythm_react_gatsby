@@ -172,15 +172,22 @@
     & .TeamMember__dismiss {
       display: block;
       position: absolute;
-      right: 4px;
-      top: 0;
-      width: 3.6em;
-      height: 3.6em;
+      right: -1px;
+      top: -1px;
+      width: 3.3em;
+      height: 3.3em;
       border-radius: 50%;
       background-color: var(--primary-1);
       box-shadow: 2px 2px 8px rgba(35, 35, 35, 0.4);
       z-index: 99;
       transform: translate(1.2em, -1.2em);
+
+      @media all and (min-width: 600px) {
+        right: 4px;
+        top: 0;
+        width: 3.6em;
+        height: 3.6em;
+      }
 
       & button {
         position: relative;
