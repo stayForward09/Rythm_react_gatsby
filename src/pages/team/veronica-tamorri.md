@@ -1,6 +1,6 @@
 ---
 published: true
-position: 6
+position: 7
 title: Veronica Tamorri
 avatar: /assets/veronica-tamorri.jpg
 ---
