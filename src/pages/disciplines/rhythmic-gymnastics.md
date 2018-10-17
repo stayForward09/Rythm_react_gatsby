@@ -4,14 +4,16 @@ position: 1
 title: Rhythmic Gymnastics
 ---
 
+Rhythmic Gymnastics is the perfect combination of sport and art, linking expressive dance steps with skilful manipulations of the rope, hoop, ball, clubs and ribbon to be performed individually or as part of a group.
+
 ## Our rhythmic gymnastics training encompasses
 
-- Conditioning, stretching and endurance training
-- Technical difficulties under the FIG (2016/2019) Rhythmic Gymnastic code of point
-- The study and the technical difficulty of the 5 different apparatus
+- Conditioning, stretching, expression, coordination and endurance training
+- Technical body difficulties under the FIG (2016/2019) Rhythmic Gymnastic code of point
+- Technical apparatus difficulty under the FIG (2016/2019)Rhythmic Gymnastic code of point
 - Ballet
 - Creation of Individual and Group routines
-- Competitions
+- Competitions and events performances
 
 ![](/assets/rhythmic-gymnastic.jpeg)
 
