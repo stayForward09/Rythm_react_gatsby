@@ -35,7 +35,7 @@ functions:
           method: post
           cors:
             origins:
-              - 'https://rhythmic-excellence.netlify.com'
+              - 'https://www.rhythmicexcellence.london'
             headers:
               - Content-Type
               - MY_CUSTOM_HEADER

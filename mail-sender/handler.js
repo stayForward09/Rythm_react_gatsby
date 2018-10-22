@@ -25,7 +25,7 @@ const returnCallback = (body, statusCode = 500) => {
     statusCode,
     headers: {
       'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': 'https://rhythmic-excellence.netlify.com',
+      'Access-Control-Allow-Origin': 'https://www.rhythmicexcellence.london',
     },
     body: JSON.stringify(body),
   };
