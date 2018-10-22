@@ -1,6 +1,3 @@
 [build]
   publish = "public"
   command = "yarn build"
-
-#[context.production]
-#  command = "yarn build"
