@@ -14,3 +14,5 @@ Rhythmic Excellence is a highly professional Rhythmic Gymnastics school founded 
 We believe in the triangle Gymnast, Coach, Parents based on a strong collaboration and trust between all parties and in which everyone has their important roles: the coach teaches, the gymnast learns and the parent supports.
 
 All Coaches, Teachers, and Volunteers are CRB checked and have passed Safeguarding and Child Protection Course.
+
+All gymnasts must register to the British Gymnastics.
