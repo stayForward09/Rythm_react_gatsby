@@ -20,7 +20,7 @@ The minimum age to attend the course is 15.
 6-8 @Haggerston School (pay as you go available – No walk in)
 
 **Saturday**\
-3-5 @SpacE Hackney Community College (Competitive only)
+4-6 @SpacE Hackney Community College (Competitive only)
 
 ## Our monthly prices
 
