@@ -10,7 +10,7 @@ saturday: |-
   13:00-15:00 @SpacE Hackney Community College (Advance)
   13:00-16:00 @SpacE Hackney Community College (Advance Level 3)
   15:00-18:00 @SpacE Hackney Community College (Pre-Squad)
-  15:00-17:00 @SpacE Hackney Community College (Adults – Competitive Only)
+  16:00-18:00 @SpacE Hackney Community College (Adults – Competitive Only)
   14:00-16:00 @SpacE Hackney Community College (Rhythmic 1)
   16:00-18:00 @SpacE Hackney Community College (Rhythmic 2)
 sunday: |-
