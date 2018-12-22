@@ -1,22 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import propTypes from 'prop-types';
 
 import './Hero.css';
 
 const HeroWrapper = defaultState => WrappedComponent => {
   return class HeroeWrapperComponent extends Component {
-    constructor() {
-      super();
-      this.state = { show: defaultState };
-      this.handleImageLoaded = this.handleImageLoaded.bind(this);
-    }
-
-    handleImageLoaded() {
-      this.setState({ show: true });
-      setTimeout(() => this.props.onReady());
-    }
-
     render() {
       return (
         <WrappedComponent
@@ -28,10 +16,6 @@ const HeroWrapper = defaultState => WrappedComponent => {
       );
     }
   };
-};
-
-HeroWrapper.propTypes = {
-  onReady: propTypes.bool.isRequired,
 };
 
 class HeroComponent extends Component {
@@ -46,7 +30,8 @@ class HeroComponent extends Component {
   }
 
   render() {
-    const { show, image, alt, handleImageLoaded } = this.props;
+    const { image, alt, handleImageLoaded } = this.props;
+    const show = true;
 
     return (
       <div className="Hero">

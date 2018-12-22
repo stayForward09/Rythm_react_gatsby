@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PureComponent } from 'react';
 import propTypes from 'prop-types';
 
 import { Hero } from '../components/Hero';
@@ -15,46 +15,52 @@ import { graphql } from 'gatsby';
 
 const windowGlobal = typeof window !== 'undefined' && window;
 
-const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
-  <div className={`App ${ready ? 'ready' : ''}`}>
-    <Hero onReady={onReady} />
-    <section className="Home__content">
-      {data.home && data.home.edges.map(edge => <Homepage key={edge.node.id} node={edge.node} />)}
+class IndexPage extends PureComponent {
+  render() {
+    const { data, apiKey, height, zoom } = this.props;
+    const onReady = true;
 
-      <MedalCollection data={data.medals.edges[0].node.frontmatter} />
+    return (
+      <div className={`App ${onReady ? 'ready' : ''}`}>
+      <Hero onReady={onReady} />
+      <section className="Home__content">
+        {data.home && data.home.edges.map(edge => <Homepage key={edge.node.id} node={edge.node} />)}
 
-      <LatestNews edges={data.news.edges} />
+        <MedalCollection data={data.medals.edges[0].node.frontmatter} />
 
-      <Disciplines disciplines={data.disciplines} />
+        <LatestNews edges={data.news.edges} />
 
-      {onReady && (
-        <Map
-          isMarkerShown
-          zoom={zoom}
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp`}
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div style={{ height: `${height}px` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
+        <Disciplines disciplines={data.disciplines} />
+
+        {onReady && (
+          <Map
+            isMarkerShown
+            zoom={zoom}
+            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp`}
+            loadingElement={<div style={{ height: `100%` }} />}
+            containerElement={<div style={{ height: `${height}px` }} />}
+            mapElement={<div style={{ height: `100%` }} />}
+          />
+        )}
+
+        <ContactUs />
+
+        <Footer
+          disciplines={data.disciplines.edges}
+          legals={data.legals.edges}
+          socials={data.socials.edges}
         />
-      )}
-
-      <ContactUs />
-
-      <Footer
-        disciplines={data.disciplines.edges}
-        legals={data.legals.edges}
-        socials={data.socials.edges}
-      />
-    </section>
-  </div>
-);
+      </section>
+    </div>
+    )
+  }
+}
 
 IndexPage.propTypes = {
   data: propTypes.any.isRequired,
   apiKey: propTypes.string.isRequired,
   height: propTypes.number.isRequired,
   zoom: propTypes.number.isRequired,
-  onReady: propTypes.func.isRequired,
 };
 
 class Index extends Component {
@@ -76,17 +82,12 @@ class Index extends Component {
     return {
       zoom,
       height,
-      ready: false,
     };
   }
 
-  onReady = () => {
-    this.setState({ ready: true });
-  };
-
   render() {
     const { data, location } = this.props;
-    const { ready, zoom, height } = this.state;
+    const { zoom, height } = this.state;
 
     return (
       <Layout location={location}>
@@ -95,8 +96,6 @@ class Index extends Component {
           apiKey="AIzaSyBSTxTuLLnTs7oRrOAC8vUBHBmcKVW06Wo"
           height={height}
           zoom={zoom}
-          ready={ready}
-          onReady={this.onReady}
         />
       </Layout>
     );
