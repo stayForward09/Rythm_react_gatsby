@@ -5,6 +5,15 @@ import './Hero.css';
 
 const HeroWrapper = defaultState => WrappedComponent => {
   return class HeroeWrapperComponent extends Component {
+    constructor(props) {
+      super(props);
+      this.handleImageLoaded = this.handleImageLoaded.bind(this);
+    }
+
+    handleImageLoaded() {
+      setTimeout(() => this.props.onReady());
+    }
+
     render() {
       return (
         <WrappedComponent
