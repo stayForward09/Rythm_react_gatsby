@@ -3,6 +3,7 @@ import propTypes from 'prop-types';
 
 import { Hero } from '../components/Hero';
 import { Homepage } from '../components/Homepage';
+import { MedalCollection } from '../components/MedalCollection';
 import { LatestNews } from '../components/LatestNews';
 import { Disciplines } from '../components/Disciplines';
 import { Map } from '../components/Map';
@@ -19,6 +20,8 @@ const IndexPage = ({ data, apiKey, height, zoom, ready, onReady }) => (
     <Hero onReady={onReady} />
     <section className="Home__content">
       {data.home && data.home.edges.map(edge => <Homepage key={edge.node.id} node={edge.node} />)}
+
+      <MedalCollection data={data.medals.edges[0].node.frontmatter} />
 
       <LatestNews edges={data.news.edges} />
 
@@ -148,6 +151,18 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM Do, YYYY")
             title
+          }
+        }
+      }
+    }
+    medals: allMarkdownRemark(filter: {fields: {category: {eq: "medals"}}}) {
+      edges {
+        node {
+          frontmatter {
+            title
+            gold
+            bronze
+            silver
           }
         }
       }
