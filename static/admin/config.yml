@@ -37,6 +37,38 @@ collections:
         options: ['Facebook', 'Twitter', 'Instagram', 'GooglePlus', 'YouTube']
       - { name: 'link', label: 'Link', widget: 'string' }
 
+  - name: 'medals'
+    label: 'Medals'
+    folder: 'src/pages/medals'
+    create: false
+    fields:
+      - { name: 'published', label: 'Published', widget: 'hidden', default: true }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - {
+          name: 'gold',
+          label: 'Gold medals',
+          widget: 'number',
+          required: true,
+          valueType: int,
+          min: 1,
+      }
+      - {
+          name: 'silver',
+          label: 'Silver medals',
+          widget: 'number',
+          required: true,
+          valueType: int,
+          min: 1,
+      }
+      - {
+          name: 'bronze',
+          label: 'Bronze medals',
+          widget: 'number',
+          required: true,
+          valueType: int,
+          min: 1,
+      }
+
   - name: 'timetable'
     label: 'Timetable'
     folder: 'src/pages/timetable'

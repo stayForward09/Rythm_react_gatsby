@@ -122,6 +122,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         node,
         value: 'socials',
       });
+    } else if (/^.+\/medals\/.+/.test(node.fileAbsolutePath)) {
+      // Dynamically add a `legal` category to team members
+      createNodeField({
+        name: 'category',
+        node,
+        value: 'medals',
+      });
     } else if (/^.+\/timetable\/.+/.test(node.fileAbsolutePath)) {
       // Dynamically add a `legal` category to team members
       createNodeField({

@@ -1,0 +1,21 @@
+.MedalCollection {
+}
+
+.MedalCollection__medals__container {
+  cursor: pointer;
+}
+
+.MedalCollection__medals {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.MedalCollection__medals__counter {
+  color: #d69400;
+  font-size: 42px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 61px;
+}
