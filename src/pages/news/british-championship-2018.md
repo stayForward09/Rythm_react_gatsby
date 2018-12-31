@@ -11,6 +11,4 @@ Well done to her and thanks to all the people who has supported us, we’re very
 
 ![null](/assets/img-20180625-wa0038.jpg)
 
-Check our Instagram to find out more!
-
-https://www.instagram.com/p/BkctLNllhhq/?taken-by=rhythmic_excellence
+Pictures and videos on our [Facebook](https://www.facebook.com/pg/Rhythmic-Excellence-787019504729313/photos/?tab=album&album_id=1694296717334916) and [Instagram](https://www.instagram.com/p/BkctLNllhhq/) pages!
