@@ -5,6 +5,8 @@ date: 2018-11-11T12:01:27.734Z
 ---
 Amazing results from our gymnasts who have competed at the Canterbury cup, thank you CCRGC for inviting us and for organising such a great event!
 
+Pictures and videos on our [Facebook](https://www.facebook.com/pg/Rhythmic-Excellence-787019504729313/photos/?tab=album&album_id=1893372557427330) and [Instagram](<Pictures and videos on our Facebook and Instagram pages!>) pages!
+
 44 medals earned by our lovely girls! Well done to all of them especially the overall winners: Sabrina, Yoana, Livia, Sandra and Saffron and Veronica for her first competition getting the 3rd score of her category!!
 
 Level 1 U7
@@ -15,8 +17,6 @@ Level 1 U7
 Level 1 U10
 
 3. Yasmine
-
-
 
 Level 1 U12
 
