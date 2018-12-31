@@ -5,6 +5,8 @@ date: 2018-09-23T17:00:00.000Z
 ---
 ## Great results from our girls' first competition of the year, well done to everyone and a big thank to Scottish Gymnastics for the invitation and for having organised such a nice event!
 
+Pictures and videos on our [Facebook](https://www.facebook.com/Rhythmic-Excellence-787019504729313/) and [Instagram](https://www.instagram.com/p/BoFJbqIl-qB/) pages!
+
 U10\
 Ema 2' clubs - 3' rope\
 Adriana 1' rope\
