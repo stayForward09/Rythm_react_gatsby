@@ -3,15 +3,14 @@ published: true
 position: 2
 title: Adult Rhythmic Gymnastics
 ---
-
 Adult Gymnastics provides a new opportunity to try out an amazing sport. Build your strength, flexibility and control and test yourself in a range of different activities.
 
 The minimum age to attend the course is 15.
 
 ## Our timetable
 
-**Monday**\
-6-8 @Haggerston School (pay as you go available – No walk in)
+**Tuesday**\
+6-8 @Haggerston School 
 
 **Wednesday**\
 6-8 @Haggerston School
