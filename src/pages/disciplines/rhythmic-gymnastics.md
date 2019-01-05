@@ -18,7 +18,7 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 
 ## Our groups
 
-* Baby (4-6 yo, 1 day a week - Kensington only)
+* Baby (4-6 yo, 1 class per week - Kensington only)
 * Rhythmic 1 (7-10 yo, 2 – 3 days a week)
 * Rhythmic 2 (11-14 yo, 2 – 3 days a week)
 * Advance (10-14 yo, 3 – 4 days a week) Selected gymnasts only – Level 2 and 3
