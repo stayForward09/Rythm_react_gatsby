@@ -6120,11 +6120,12 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-remark-relative-images@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-relative-images/-/gatsby-remark-relative-images-0.1.2.tgz#6e53347b273e5dee92fea101482b7ff2f467558c"
-  integrity sha512-8072JCRRD8Dbb8IGXMYfas/OGJXSTkAcev+SylLjbMRmsuBnOpuq0KN7kRDHbyCpItQ3laID0hRI7XoO9CY5ig==
+gatsby-remark-relative-images@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-relative-images/-/gatsby-remark-relative-images-0.2.1.tgz#5b1a489a6a4c4cd1e59eca056a6da9980d5e911f"
+  integrity sha512-nxInoB0u7dTIE+AkeL4HoyXZuhzdsdkLIkLIdAdLxQKKEkzwumBnTkH6avR+zZpv2zNk416lG02jcaIAg6+VCQ==
   dependencies:
+    babel-polyfill "^6.26.0"
     cheerio "1.0.0-rc.2"
     deep-map "1.5.0"
     is-relative-url "2.0.0"
@@ -6178,7 +6179,7 @@ gatsby-transformer-remark@^2.1.3:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.3.0"
 
-gatsby@^2.0.0:
+gatsby@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.2.tgz#3233a9dc99d4c7f5a7eeadd94e9a5515b1c8b702"
   integrity sha512-70kwwQkDwvAUTuf8nFwlHMtRF5Ut3X/PFx/L0AvOCFEHcNqAdDMPd5c6Nz8/zmeRSpY/paLS+ZYtDw/ymr6Mgw==
@@ -8598,7 +8599,7 @@ lie@3.1.1:
   dependencies:
     immediate "~3.0.5"
 
-lighthouse-ci@^1.1.0:
+lighthouse-ci@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/lighthouse-ci/-/lighthouse-ci-1.4.1.tgz#2a7335912cbe1b18bd3f1effb56671295a9d8294"
   integrity sha512-e3+ZtvSDmVGcdjiVqBmytsbjhpEMM4xPYILDSl99q/p21T8ajFYN/oLk8hJCjQpKHa3IalBagitEQYVKKbSm0Q==

@@ -5,19 +5,14 @@ import './SWBanner.css';
 const windowGlobal = typeof window !== 'undefined' && window;
 
 export class SWBanner extends PureComponent {
-  constructor() {
-    super();
+  state = {
+    show: false,
+  };
 
-    this.state = {
-      show: false,
-    };
-
+  componentDidMount() {
     if (windowGlobal['navigator'] && 'serviceWorker' in windowGlobal['navigator']) {
       this.activate();
     }
-
-    this.showUpdateBar = this.showUpdateBar.bind(this);
-    this.reload = this.reload.bind(this);
   }
 
   activate() {
@@ -48,10 +43,6 @@ export class SWBanner extends PureComponent {
     windowGlobal.location.reload();
   }
 
-  showUpdateBar() {
-    this.setState({ show: true });
-  }
-
   render() {
     return (
       <div className={`SWBanner ${this.state.show ? ' show' : ''}`}>
@@ -66,5 +57,9 @@ export class SWBanner extends PureComponent {
         )}
       </div>
     );
+  }
+
+  showUpdateBar = () => {
+    this.setState({ show: true });
   }
 }

@@ -7,34 +7,27 @@ import './ContactUs.css';
 const BRANCHES = ['KENSINGTON', 'HACKNEY'];
 
 export class ContactUs extends Component {
-  constructor() {
-    super();
+  state = {
+    name: '',
+    email: '',
+    branch: '',
+    message: '',
+    isWaiting: false,
+  };
 
-    this.nameFieldRef = React.createRef();
-    this.state = {
-      name: '',
-      email: '',
-      branch: '',
-      message: '',
-      isWaiting: false,
-    };
+  nameFieldRef = React.createRef();
 
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.resetForm = this.resetForm.bind(this);
-    this.handleFieldChange = this.handleFieldChange.bind(this);
-  }
-
-  validateField(field) {
+  validateField = (field) => {
     return field && field.length > 1;
   }
 
-  handleFieldChange(evt) {
+  handleFieldChange = (evt) => {
     this.setState({
       [evt.target.id]: evt.target.value,
     });
   }
 
-  resetForm() {
+  resetForm = () => {
     this.setState({
       name: '',
       email: '',
@@ -45,7 +38,7 @@ export class ContactUs extends Component {
     this.nameFieldRef.current.focus();
   }
 
-  formSubmitted(successful = false) {
+  formSubmitted = (successful = false) => {
     this.setState({ isWaiting: false });
 
     if (successful) {
@@ -58,7 +51,7 @@ export class ContactUs extends Component {
     );
   }
 
-  handleSubmit(e) {
+  handleSubmit = (e) => {
     e.preventDefault();
 
     const { name, email, branch, message } = this.state;
