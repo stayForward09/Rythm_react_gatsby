@@ -1,98 +1,18 @@
-import React, { Component, PureComponent } from 'react';
-import propTypes from 'prop-types';
-
-import { Hero } from '../components/Hero';
-import { Homepage } from '../components/Homepage';
-import { MedalCollection } from '../components/MedalCollection';
-import { LatestNews } from '../components/LatestNews';
-import { Disciplines } from '../components/Disciplines';
-import { Map } from '../components/Map';
-import { ContactUs } from '../components/ContactUs';
-import { Footer } from '../components/Footer';
-
-import Layout from '../components/layout';
+import React, { Component } from 'react';
 import { graphql } from 'gatsby';
 
+import Layout from '../components/layout';
+import { IndexPage } from '../components/indexPage';
+
 const windowGlobal = typeof window !== 'undefined' && window;
-
-class IndexPage extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = {
-      ready: false
-    }
-  }
-
-  render() {
-    const { data, apiKey, height, zoom } = this.props;
-    const { ready } = this.state;
-
-    return (
-      <div className={`App ${ready ? 'ready' : ''}`}>
-      <Hero image="/img/rhythmicexcellence.png" alt="rhythmicexcellence" handleImageLoaded={this.handleImageLoaded} />
-      <section className="Home__content">
-        {data.home && data.home.edges.map(edge => <Homepage key={edge.node.id} node={edge.node} />)}
-
-        <MedalCollection data={data.medals.edges[0].node.frontmatter} />
-
-        <LatestNews edges={data.news.edges} />
-
-        <Disciplines disciplines={data.disciplines} />
-
-        { ready && <Map
-          isMarkerShown
-          zoom={zoom}
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=3.exp`}
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div style={{ height: `${height}px` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        />}
-
-        <ContactUs />
-
-        <Footer
-          disciplines={data.disciplines.edges}
-          legals={data.legals.edges}
-          socials={data.socials.edges}
-        />
-      </section>
-    </div>
-    )
-  }
-
-  handleImageLoaded = () => {
-    setTimeout(() => this.setState({ ready: true }));
-  }
-}
-
-IndexPage.propTypes = {
-  data: propTypes.any.isRequired,
-  apiKey: propTypes.string.isRequired,
-  height: propTypes.number.isRequired,
-  zoom: propTypes.number.isRequired,
-};
+const zoom = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
+const height = windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
 
 class Index extends Component {
-  constructor(props) {
-    super(props);
-
-    const { zoom, height } = this.calculateZoomLevel();
-
-    this.state = {
-      zoom,
-      height,
-    };
-  }
-
-  calculateZoomLevel() {
-    const zoom = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
-    const height = windowGlobal.innerHeight < 800 ? windowGlobal.innerHeight + 100 : 900;
-
-    return {
-      zoom,
-      height,
-    };
-  }
+  state = {
+    zoom,
+    height,
+  };
 
   render() {
     const { data, location } = this.props;

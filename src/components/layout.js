@@ -34,6 +34,7 @@ const Layout = ({ children, location }) => {
           ) {
             edges {
               node {
+                id
                 fields {
                   slug
                 }
@@ -50,6 +51,7 @@ const Layout = ({ children, location }) => {
           ) {
             edges {
               node {
+                id
                 fields {
                   slug
                 }
@@ -66,6 +68,7 @@ const Layout = ({ children, location }) => {
           ) {
             edges {
               node {
+                id
                 frontmatter {
                   title
                   position

@@ -7,24 +7,10 @@ import Layout from '../components/layout';
 import './team.css';
 
 class Team extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      activeMember: null,
-      show: false,
-    };
-
-    this.bindActive = this.bindActive.bind(this);
-  }
-
-  bindActive(elementToActivate = null) {
-    this.setState({
-      activeMember: elementToActivate,
-    });
-
-    document.body.classList.toggle('no-scroll', elementToActivate !== null);
-  }
+  state =  {
+    activeMember: null,
+    show: false,
+  };
 
   componentDidMount() {
     setTimeout(() => this.setState({ show: true }));
@@ -57,6 +43,14 @@ class Team extends Component {
         </div>
       </Layout>
     );
+  }
+
+  bindActive = (elementToActivate = null) => {
+    this.setState({
+      activeMember: elementToActivate,
+    });
+
+    document.body.classList.toggle('no-scroll', elementToActivate !== null);
   }
 }
 

@@ -6,15 +6,9 @@ import { withCookies, Cookies } from 'react-cookie';
 import './CookiePolicy.css';
 
 class CookiePolicyComponent extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      acceptedCookies: true,
-    };
-
-    this.onAccept = this.onAccept.bind(this);
-  }
+  state = {
+    acceptedCookies: true,
+  };
 
   componentDidMount() {
     const { cookies } = this.props;
@@ -25,7 +19,7 @@ class CookiePolicyComponent extends Component {
     });
   }
 
-  onAccept() {
+  onAccept = () => {
     const { cookies } = this.props;
 
     this.setState({ fadeOut: true });
