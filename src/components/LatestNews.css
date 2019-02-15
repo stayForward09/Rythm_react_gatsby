@@ -22,7 +22,7 @@
     box-sizing: content-box;
     padding: 1.2em 1em;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 340px;
     width: 100%;
     scroll-snap-align: center;
 
@@ -77,10 +77,23 @@
       font-weight: 600;
       font-size: 1.2em;
       transition: color 250ms ease-in-out;
+
+      height: 66px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
 
     & .LatestNews__card__content {
       padding: 0.5em 0;
+      height: 103px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 4;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
 
     & .LatestNews__card__footer {

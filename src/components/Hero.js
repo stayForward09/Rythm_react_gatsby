@@ -3,31 +3,7 @@ import { Link } from 'gatsby';
 
 import './Hero.css';
 
-const HeroWrapper = defaultState => WrappedComponent => {
-  return class HeroeWrapperComponent extends Component {
-    constructor(props) {
-      super(props);
-      this.handleImageLoaded = this.handleImageLoaded.bind(this);
-    }
-
-    handleImageLoaded() {
-      setTimeout(() => this.props.onReady());
-    }
-
-    render() {
-      return (
-        <WrappedComponent
-          {...this.state}
-          image="/img/rhythmicexcellence.png"
-          alt="rhythmicexcellence"
-          handleImageLoaded={this.handleImageLoaded}
-        />
-      );
-    }
-  };
-};
-
-class HeroComponent extends Component {
+export class Hero extends Component {
   image = React.createRef();
 
   componentDidMount() {
@@ -60,5 +36,3 @@ class HeroComponent extends Component {
     );
   }
 }
-
-export const Hero = HeroWrapper(false)(HeroComponent);
