@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import { TeamMember } from '../components/Team';
 import { graphql } from 'gatsby';
 
-import Layout from '../components/layout';
-
 import './team.css';
 
 class Team extends Component {
-  state =  {
+  state = {
     activeMember: null,
     show: false,
   };
@@ -18,30 +16,28 @@ class Team extends Component {
 
   render() {
     return (
-      <Layout>
-        <div className="Team container">
-          <div className="title">
-            <p className="sub-title">Hi, have you met</p>
-            <h2 className="title">Our Team?</h2>
-          </div>
-
-          <div className="TeamList">
-            {this.props.data.allMarkdownRemark.edges.map((teamMembers, key) => (
-              <TeamMember
-                show={this.state.show}
-                key={`team-member-${key}`}
-                id={key}
-                name={teamMembers.node.frontmatter.title}
-                picture={teamMembers.node.frontmatter.avatar}
-                content={teamMembers.node.html}
-                onActive={id => this.bindActive(id)}
-                onDismiss={this.bindActive}
-                active={this.state.activeMember === key}
-              />
-            ))}
-          </div>
+      <div className="Team container">
+        <div className="title">
+          <p className="sub-title">Hi, have you met</p>
+          <h2 className="title">Our Team?</h2>
         </div>
-      </Layout>
+
+        <div className="TeamList">
+          {this.props.data.allMarkdownRemark.edges.map((teamMembers, key) => (
+            <TeamMember
+              show={this.state.show}
+              key={`team-member-${key}`}
+              id={key}
+              name={teamMembers.node.frontmatter.title}
+              picture={teamMembers.node.frontmatter.avatar}
+              content={teamMembers.node.html}
+              onActive={id => this.bindActive(id)}
+              onDismiss={this.bindActive}
+              active={this.state.activeMember === key}
+            />
+          ))}
+        </div>
+      </div>
     );
   }
 
@@ -51,7 +47,7 @@ class Team extends Component {
     });
 
     document.body.classList.toggle('no-scroll', elementToActivate !== null);
-  }
+  };
 }
 
 export default Team;

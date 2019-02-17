@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../components/layout';
 
 import './timetable.css';
 
@@ -9,24 +8,16 @@ class Timetable extends PureComponent {
     const { data } = this.props;
 
     return (
-      <Layout>
-        <div className="container">
-          <h2 className="title">Timetable</h2>
+      <div className="container">
+        <h2 className="title">Timetable</h2>
 
-          <div className="Timetable">
-            {data.allMarkdownRemark.edges.map(branchTimetable => (
-              <div key={`key-${branchTimetable.node.id}`}>
-                <h3 className="title">{branchTimetable.node.frontmatter.title}</h3>
-                <div>
-                  {[
-                    'monday',
-                    'tuesday',
-                    'wednesday',
-                    'thursday',
-                    'friday',
-                    'saturday',
-                    'sunday',
-                  ].map(day => {
+        <div className="Timetable">
+          {data.allMarkdownRemark.edges.map(branchTimetable => (
+            <div key={`key-${branchTimetable.node.id}`}>
+              <h3 className="title">{branchTimetable.node.frontmatter.title}</h3>
+              <div>
+                {['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'].map(
+                  day => {
                     const key = `${day}-${branchTimetable.node.id}`;
                     let dayTimetable = branchTimetable.node.frontmatter[day];
 
@@ -42,13 +33,13 @@ class Timetable extends PureComponent {
                         <p dangerouslySetInnerHTML={{ __html: dayTimetable }} />
                       </div>
                     );
-                  })}
-                </div>
+                  }
+                )}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-      </Layout>
+      </div>
     );
   }
 }

@@ -19,6 +19,7 @@
     "axios": "^0.18.0",
     "create-react-class": "^15.6.3",
     "gatsby": "^2.1.2",
+    "gatsby-plugin-layout": "^1.0.12",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-netlify-cms": "^3.0.2",
