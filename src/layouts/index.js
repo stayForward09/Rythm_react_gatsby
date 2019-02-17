@@ -15,8 +15,6 @@ import { Footer } from '../components/Footer';
 import { CookiePolicy } from '../components/CookiePolicy';
 import { SWBanner } from '../components/SWBanner';
 
-import Transition from '../components/transition';
-
 const Layout = ({ children, location }) => {
   const isHomepage = location && location.pathname === withPrefix('/');
 
@@ -104,7 +102,7 @@ const Layout = ({ children, location }) => {
             <main>
               <Navbar />
               {!isHomepage && <Topbar />}
-              <Transition location={location}>{children}</Transition>
+              {children}
               {!isHomepage && (
                 <Footer
                   disciplines={data.disciplines.edges}

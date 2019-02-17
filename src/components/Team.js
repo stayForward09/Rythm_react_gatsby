@@ -4,21 +4,10 @@ import PropTypes from 'prop-types';
 import { IconClose } from '../icons';
 import './Team.css';
 
-export const TeamMember = ({
-  name,
-  id,
-  content,
-  picture,
-  active,
-  show,
-  onActive,
-  onDismiss,
-}) => (
+export const TeamMember = ({ name, id, content, picture, active, show, onActive, onDismiss }) => (
   <div className={`TeamMember ${show ? 'show' : ''} ${active ? 'active' : ''}`}>
     <div
-      className={
-        active ? 'TeamMember__background visible' : 'TeamMember__background'
-      }
+      className={active ? 'TeamMember__background visible' : 'TeamMember__background'}
       onClick={() => onDismiss()}
     />
     <div className="TeamMember__container">
@@ -29,10 +18,7 @@ export const TeamMember = ({
           </div>
         </button>
       </div>
-      <div
-        className="TeamMember__container__content"
-        onClick={() => onActive(id)}
-      >
+      <div className="TeamMember__container__content" onClick={() => onActive(id)}>
         <div className="TeamMember__container__picture">
           <img alt={name} src={picture} width="200px" />
         </div>
