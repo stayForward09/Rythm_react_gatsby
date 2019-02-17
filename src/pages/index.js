@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from '../components/layout';
 import { IndexPage } from '../components/indexPage';
+import Layout from '../layouts/index';
 
 const windowGlobal = typeof window !== 'undefined' && window;
 const zoom = windowGlobal.innerWidth <= 600 ? 11 : windowGlobal.innerWidth <= 1100 ? 12 : 13;
