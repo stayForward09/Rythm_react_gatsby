@@ -1,17 +1,21 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+import Layout from '../layouts/index';
+
 import './pages.css';
 
 const DisciplinePage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <div className="container">
-      <h2 className="title">{post.frontmatter.title}</h2>
-      <p>{post.frontmatter.date}</p>
-      <div className="page" dangerouslySetInnerHTML={{ __html: post.html }} />
-    </div>
+    <Layout>
+      <div className="container">
+        <h2 className="title">{post.frontmatter.title}</h2>
+        <p>{post.frontmatter.date}</p>
+        <div className="page" dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
+    </Layout>
   );
 };
 

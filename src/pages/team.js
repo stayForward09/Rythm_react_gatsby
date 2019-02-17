@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { TeamMember } from '../components/Team';
 import { graphql } from 'gatsby';
 
+import Layout from '../layouts/index';
+
 import './team.css';
 
 class Team extends Component {
@@ -16,28 +18,30 @@ class Team extends Component {
 
   render() {
     return (
-      <div className="Team container">
-        <div className="title">
-          <p className="sub-title">Hi, have you met</p>
-          <h2 className="title">Our Team?</h2>
-        </div>
+      <Layout>
+        <div className="Team container">
+          <div className="title">
+            <p className="sub-title">Hi, have you met</p>
+            <h2 className="title">Our Team?</h2>
+          </div>
 
-        <div className="TeamList">
-          {this.props.data.allMarkdownRemark.edges.map((teamMembers, key) => (
-            <TeamMember
-              show={this.state.show}
-              key={`team-member-${key}`}
-              id={key}
-              name={teamMembers.node.frontmatter.title}
-              picture={teamMembers.node.frontmatter.avatar}
-              content={teamMembers.node.html}
-              onActive={id => this.bindActive(id)}
-              onDismiss={this.bindActive}
-              active={this.state.activeMember === key}
-            />
-          ))}
+          <div className="TeamList">
+            {this.props.data.allMarkdownRemark.edges.map((teamMembers, key) => (
+              <TeamMember
+                show={this.state.show}
+                key={`team-member-${key}`}
+                id={key}
+                name={teamMembers.node.frontmatter.title}
+                picture={teamMembers.node.frontmatter.avatar}
+                content={teamMembers.node.html}
+                onActive={id => this.bindActive(id)}
+                onDismiss={this.bindActive}
+                active={this.state.activeMember === key}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Layout>
     );
   }
 

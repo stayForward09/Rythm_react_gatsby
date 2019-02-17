@@ -46,9 +46,6 @@ module.exports = {
       resolve: 'gatsby-plugin-offline',
     },
     {
-      resolve: 'gatsby-plugin-layout',
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages/team`,
