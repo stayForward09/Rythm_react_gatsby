@@ -13,6 +13,7 @@ const getTransitionStyles = {
   entered: {
     transition: `opacity ${timeout}ms ease-in-out`,
     opacity: 1,
+    position: 'initial',
   },
   exiting: {
     transition: `all ${timeout}ms ease-in-out`,
@@ -41,6 +42,7 @@ class Transition extends React.PureComponent {
           {//Application of the styles depending on the status of page(entering, exiting, entered) in the DOM
           status => (
             <div
+              className="transition-box"
               style={{
                 ...getTransitionStyles[status],
               }}
