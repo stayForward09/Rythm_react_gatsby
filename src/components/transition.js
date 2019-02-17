@@ -13,7 +13,6 @@ const getTransitionStyles = {
   entered: {
     transition: `opacity ${timeout}ms ease-in-out`,
     opacity: 1,
-    position: 'initial',
   },
   exiting: {
     transition: `all ${timeout}ms ease-in-out`,
