@@ -12,7 +12,8 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const from = process.env.FROM;
-const to = process.env.TO;
+const toKensington = process.env.EMAIL_KENSINGTON;
+const toHackney = process.env.EMAIL_HACKNEY;
 const subject = process.env.SUBJECT;
 const debug = process.env.DEBUG === 'true';
 
@@ -44,6 +45,9 @@ module.exports.send = async (event, context) => {
         err.message,
     });
   }
+
+  const { branch } = data;
+  const to = '' + branch.trim().toLowerCase() === 'kensington' && toKensington || toHackney;
 
   try {
     await sendMail(data, from, to, subject, debug);
