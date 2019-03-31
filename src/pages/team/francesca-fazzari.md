@@ -4,7 +4,6 @@ position: 3
 title: Francesca Fazzari
 avatar: /assets/francesca-fazzari.jpg
 ---
-
 > UKCC Level 2 Rhythmic Gymnastics Coach
 >
 > Level 2 Judge
@@ -17,3 +16,5 @@ Championship in 2005 in Moscow and the “Irina Deleanu Cup” in Bucharest,
 trained by Laura Lazzaroni.
 
 After finishing her university studies, Francesca moved to London in 2015.
+
+Francesca is the main coach of RE advance, pre-squad and adult groups, she also coach the squad group and is responsible of the coaches teaching R1 and R2 groups.
