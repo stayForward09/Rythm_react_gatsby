@@ -1,20 +1,21 @@
 ---
 published: true
 title: East Branch - Hackney
-monday: '18:00-20:00 @Haggerston School (Pre-Squad, Rhythmic 1)'
-tuesday: '18:00-20:00 @Haggerston School (Squad, Advance/Adults and Rhythmic 2)'
-wednesday: '18:00-20:00 @Haggerston School (Squad,Pre-Squad and Adults)'
-friday: '18:00-20:00 @Haggerston School (R1 3rd day only, Advance and Adults)'
+monday: '18:00-20:00 @Haggerston School (Pre-Squad, Adults)'
+tuesday: '18:00-20:00 @Haggerston School (Advance, Rhythmic 1 and Rhythmic 2)'
+wednesday: '18:00-20:00 @Haggerston School (Squad,Pre-Squad and Rhythmic 1)'
+friday: '18:00-20:00 @Haggerston School (Advance)'
 saturday: |-
   13:00-18:00 @SpacE Hackney Community College (Squad)
   13:00-15:00 @SpacE Hackney Community College (Advance)
   13:00-16:00 @SpacE Hackney Community College (Advance Level 3)
   15:00-18:00 @SpacE Hackney Community College (Pre-Squad)
-  16:00-18:00 @SpacE Hackney Community College (Adults – Competitive Only)
+  16:00-18:00 @SpacE Hackney Community College (Adults)
   14:00-16:00 @SpacE Hackney Community College (Rhythmic 1)
   16:00-18:00 @SpacE Hackney Community College (Rhythmic 2)
 sunday: |-
   13:00-18:00 @SpacE Hackney Community College (Squad)
   13:00-15:00 @SpacE Hackney Community College (Advance/Adults)
+  13:00-16:00 @SpacE Hackney Community College (Advance Level 3)
 ---
 
