@@ -4,7 +4,6 @@ position: 2
 title: Stefano Sirianni
 avatar: /assets/stefano-sirianni.jpg
 ---
-
 > Ballet Teacher
 >
 > Dance Director
@@ -21,3 +20,5 @@ Bigonzetti, Eugenio Scigliano, Simonetta Ginnassi, Eugenio Buratti, Deanna
 Losi. Six years working experience in London working as ballet teacher and
 choreographer for rhythmic gymnastic training. In 2013 Stefano qualified as a
 rhythmic gymnastic level 3 judge.
+
+Stefano is currently attending the GB National Judging course.
