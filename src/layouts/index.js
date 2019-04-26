@@ -94,7 +94,7 @@ const Layout = ({ children, location }) => {
               { name: 'author', content: 'RhythmicExcellence' },
               { name: 'generator', content: 'RhythmicExcellence' },
               { name: 'revisit-after', content: '1 month' },
-              { name: 'google-site-verification' content: 'AAmXSywWoYgij0Q_FPRmupBM2ev1Mm_5BCs0_Y1TXms' },
+              { name: 'google-site-verification', content: 'AAmXSywWoYgij0Q_FPRmupBM2ev1Mm_5BCs0_Y1TXms' },
             ]}
           >
             <html lang="en" />
