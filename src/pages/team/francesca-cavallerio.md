@@ -1,6 +1,6 @@
 ---
 published: true
-position: 5
+position: 6
 title: Francesca Cavallerio
 avatar: /assets/francesca-cavallerio.jpg
 ---
