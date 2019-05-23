@@ -11,6 +11,8 @@ Huge congratulations to our junior **Saffron Severn** who successfully represent
 
 Click [here](https://www.facebook.com/pg/Rhythmic-Excellence-787019504729313/photos/?tab=album&album_id=2163020923795824) for the photo album.
 
+[Video](https://youtu.be/ezXW0cQ9Y3c)
+
 Thank you for everyone's support
 
 ![](/assets/img_20190505_203849.jpg)
