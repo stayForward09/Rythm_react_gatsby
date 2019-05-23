@@ -7,7 +7,9 @@ Huge congratulations to our junior **Saffron Severn** who successfully represent
 🥉in AA\
 🥈in rope\
 🥉in ball\
-🥉in clubs.
+🥉in clubs
+
+Click [here](https://www.facebook.com/pg/Rhythmic-Excellence-787019504729313/photos/?tab=album&album_id=2163020923795824) for the photo album.
 
 Thank you for everyone's support
 
