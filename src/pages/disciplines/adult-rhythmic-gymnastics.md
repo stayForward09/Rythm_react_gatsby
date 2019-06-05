@@ -9,24 +9,13 @@ The minimum age to attend the course is 15.
 
 ## Our timetable
 
-**Tuesday**\
+**Monday**\
 6-8 @Haggerston School 
 
-**Wednesday**\
-6-8 @Haggerston School
-
-**Friday**\
-6-8 @Haggerston School (pay as you go available – No walk in)
-
 **Saturday**\
-4-6 @SpacE Hackney Community College (Competitive only)
+4-6 @SpacE Hackney Community College 
 
 ## Our monthly prices
-
-**Competitive**\
-2 days per week £95\
-3 days per week £105\
-4 days per week £120
 
 **Non competitive**\
 1 day per week £65\
