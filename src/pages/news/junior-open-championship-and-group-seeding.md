@@ -1,6 +1,6 @@
 ---
 published: true
-title: Junior Open Championship and Group Seeding
+title: Junior Open Championship and Group Seeding 2019
 date: 2019-03-23T10:09:13.608Z
 ---
 A huge **CONGRATULATIONS** to: Our **Espoir group** which qualified to Level 4 and to the **English Championship** at their first ever time! Captain **Adriana**, **Vasilisa, Tehila, Alina** and **Kaela,** **Dana** who got 5th in rope and 7th in ribbon at her very first national competition, **Livia** who got her best score ever for her ball routine at her very first national competition, **Sandra** who performed 3 very strong routines and **Saffron** for winning with rope and getting 2nd in clubs and 3rd in ribbon after attending the first world championship selection the night before.
