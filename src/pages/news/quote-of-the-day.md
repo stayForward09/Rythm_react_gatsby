@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'GBR Junior National Squad '
+title: GBR Junior National Squad 2018
 date: 2018-07-19T20:47:57.455Z
 ---
 > Well done to Saffron and her teammates Alice, Isabella and Leyla for working hard in Lilleshall at the National Sport Centre.
