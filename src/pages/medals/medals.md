@@ -1,8 +1,8 @@
 ---
 published: true
 title: Medals
-gold: 109
-silver: 88
-bronze: 78
+gold: 110
+silver: 89
+bronze: 80
 ---
 
