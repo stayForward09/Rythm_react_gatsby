@@ -1,6 +1,6 @@
 ---
 published: true
-title: GREAT RESULTS FROM THE SPRING CUP
+title: International Spring Cup 2018
 date: 2018-05-05T18:58:57.062Z
 ---
 Well done to all our gymnasts that have attended the international London Spring Cup last weekend.
