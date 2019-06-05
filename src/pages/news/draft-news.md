@@ -1,6 +1,6 @@
 ---
 published: true
-title: Thisle Invitation - Edinburgh 2018
+title: Thisle Invitation 2018 - Edinburgh
 date: 2018-09-23T17:00:00.000Z
 ---
 ## Great results from our girls' first competition of the year, well done to everyone and a big thank to Scottish Gymnastics for the invitation and for having organised such a nice event!
