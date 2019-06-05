@@ -1,6 +1,6 @@
 ---
 published: true
-title: Paquita - RE  Xmas Show
+title: Paquita - RE Xmas Show 2018
 date: 2018-12-14T12:52:38.490Z
 ---
 ![]()
