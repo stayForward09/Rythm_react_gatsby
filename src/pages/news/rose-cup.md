@@ -1,6 +1,6 @@
 ---
 published: true
-title: ROSE CUP
+title: 'Rose Cup 2018 '
 date: 2018-05-13T18:51:04.114Z
 ---
 Brilliant results from the Rose Cup, thanks to Nene Valley club and Vicky for inviting us!
