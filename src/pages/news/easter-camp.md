@@ -1,6 +1,6 @@
 ---
 published: true
-title: Easter Camp
+title: Easter Camp 2018
 date: 2018-06-01T18:35:14.491Z
 ---
 Second camp of the year (the 3rd is on the go with a special guest), girls worked a lot but also had fun 🙂
