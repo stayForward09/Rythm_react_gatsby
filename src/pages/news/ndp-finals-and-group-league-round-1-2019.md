@@ -25,10 +25,8 @@ What a weekend!!
 
 **Adriana** 4th rope, 9th clubs, 6th AA
 
-****\
-**Espoir** Group 12th
-
-
+\***\***\
+Espoir\*\* Group 12th
 
 Well done to all our sdomie, coaches and judges 💜
 
@@ -36,8 +34,6 @@ Well done to all our sdomie, coaches and judges 💜
 More pictures [here](https://www.instagram.com/p/ByhmhLlB2yU/?hl=en)
 
 ![](/assets/img-20190609-wa0084.jpg)
-
- 
 
 ![](/assets/screenshot_20190610-142038.png)
 
