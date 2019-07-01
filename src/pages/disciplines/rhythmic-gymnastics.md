@@ -16,14 +16,10 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 
 ![](/assets/rhythmic-gymnastic.jpeg)
 
-## Our groups
+Season 2019/2020 - Information will be uploaded by July 10th
 
-* Baby (4-6 yo, 1 class per week - Kensington only)
-* Rhythmic 1 (7-10 yo, 2 – 3 days a week)
-* Rhythmic 2 (11-14 yo, 2 – 3 days a week)
-* Advance (10-14 yo, 3 – 4 days a week) Selected gymnasts only – Level 2 and 3
-* Pre-Squad (6-9 yo, 3 – 4 days a week) Selected gymnasts only
-* Squad (7 yo and up, 4 – 5 days a week) Selected gymnasts only Level 3, 4 and 5
+* **Recreational** tbc
+* **Squad** Selected gymnasts only Level 3, 4 and 5
 
 ![Saffron Severn at the British Championships 2018](/assets/disciplines-rhythmic-gymnastics.jpg)
 
