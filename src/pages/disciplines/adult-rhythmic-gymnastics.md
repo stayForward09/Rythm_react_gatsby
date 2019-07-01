@@ -9,18 +9,9 @@ The minimum age to attend the course is 15.
 
 ## Our timetable
 
-**Monday**\
-6-8 @Haggerston School 
+**2019/2020 Season will be confirmed by July 10th**
 
-**Saturday**\
-4-6 @SpacE Hackney Community College 
 
-## Our monthly prices
-
-**Non competitive**\
-1 day per week £65\
-2 days per week £80\
-3 days by request only
 
 ![adult gymnastics](/assets/adult-gymnastics.jpeg)
 
