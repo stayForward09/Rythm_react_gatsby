@@ -14,7 +14,7 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 * Creation of Individual and Group routines
 * Competitions and events performances
 
-![](/assets/rhythmic-gymnastic.jpeg)
+![](/assets/img-20180513-wa0048.jpg)
 
 Season 2019/2020 - Information will be uploaded by July 10th
 
