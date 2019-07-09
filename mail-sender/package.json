@@ -1,7 +1,7 @@
 {
   "name": "rhythmic-excellence-mail-sender",
   "version": "1.0.0",
-  "description": "Send emails coming from rhythmicexcellence website",
+  "description": "Send emails coming from RhythmicExcellence website",
   "main": "index.js",
   "scripts": {
     "dev": "AWS_REGION=us-east-1 serverless offline start",
@@ -13,12 +13,12 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.315.0",
-    "dotenv": "^6.0.0",
-    "nodemailer": "^4.6.8",
+    "dotenv": "^8.0.0",
+    "nodemailer": "^6.2.1",
     "nodemailer-ses-transport": "^1.5.1"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
-    "serverless-offline": "^3.25.12"
+    "jest": "^24.8.0",
+    "serverless-offline": "^5.7.2"
   }
 }

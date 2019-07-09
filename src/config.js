@@ -4,9 +4,7 @@ const hostname = windowGlobal && windowGlobal.location && windowGlobal.location.
 let backendHost;
 
 if (/rhythmicexcellence\.london/.test(hostname)) {
-  backendHost = 'https://sb59j69cub.execute-api.us-east-1.amazonaws.com/production';
-} else if (/rhythmic-excellence-staging\.netlify\.com/.test(hostname)) {
-  backendHost = 'https://sb59j69cub.execute-api.us-east-1.amazonaws.com/dev';
+  backendHost = 'https://bt6eyfidtj.execute-api.us-east-1.amazonaws.com/production';
 } else {
   backendHost = process.env.BACKEND_HOST || 'http://localhost:3000';
 }

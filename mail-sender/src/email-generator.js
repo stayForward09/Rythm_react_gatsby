@@ -22,7 +22,7 @@ class EmailGenerator {
     This is an automatic e-mail generated from ${(isHtml &&
       '<a href="http://www.rhythmicexcellence.london" target="_blank">www.rhythmicexcellence.london</a>') ||
       'http://rhythmicexcellence.london'}<br/>
-    If you do not wish to continue receiving these messages or for other queries, plase contact your web administrator at: ${(isHtml &&
+    If you do not wish to continue receiving these messages or for other queries, please contact your web administrator at: ${(isHtml &&
       '<a href="mailto:andreasonny83@gmail.com" target="_blank">andreasonny83@gmail.com</a>.') ||
       'andreasonny83@gmail.com .'}`;
 
