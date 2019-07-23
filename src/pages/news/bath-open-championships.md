@@ -6,7 +6,7 @@ date: 2019-07-07T14:21:23.350Z
 Great results from Bath, our gymnasts won lots of medals and 3 amazing special prizes:
 
 _Gymnast of the day U8 **Vasilisa**_\
-_Gymnast of the day U9 **Elizabeth**_\
+_Gymnast of the day U9 **Adriana**_\
 _Gymnast of the day Junior **Dana**_
 
 Level 2:
