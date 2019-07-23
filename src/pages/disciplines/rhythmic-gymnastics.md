@@ -16,9 +16,9 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 
 ![](/assets/img-20180513-wa0048.jpg)
 
-Season 2019/2020 - Information will be uploaded by July 10th
+Season 2019/2020 - Information will be uploaded by July 25th
 
-* **Recreational** tbc
+* **Recreational** 
 * **Squad** Selected gymnasts only Level 3, 4 and 5
 
 ![Saffron Severn at the British Championships 2018](/assets/disciplines-rhythmic-gymnastics.jpg)
