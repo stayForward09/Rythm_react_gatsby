@@ -3,7 +3,7 @@ published: true
 title: FIG 1st Junior World Championship
 date: 2019-07-20T08:36:12.862Z
 ---
-We are extremely proud of our junior gymnast _**Saffron Severn**_ who has brilliantly performed at the **"FIG 1st Junior World Championship"** in Moscow.
+We are extremely proud of our junior gymnast **_Saffron Severn_** who has brilliantly performed at the **"FIG 1st Junior World Championship"** in Moscow.
 
 Saffron has performed rope (13.300 - 28th) and clubs (13.650 - 38th) in the mayor event for the very first time organised by the FIG and amazingly hosted by the Russian Federation.
 
