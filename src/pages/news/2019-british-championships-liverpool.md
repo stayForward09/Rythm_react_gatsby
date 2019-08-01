@@ -7,14 +7,10 @@ One of the greatest competition weekend ever!
 
 🏆Saffron Severn is the Junior British National Champion 2019
 
-Finals:
-
-🥇rope
-
-🥈ball
-
-🥈clubs
-
+Finals:\
+🥇rope\
+🥈ball\
+🥈clubs\
 🥇ribbon
 
 We couldn't be happier, congratulations to our Saffron!!!
