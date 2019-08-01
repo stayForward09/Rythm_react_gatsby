@@ -18,7 +18,9 @@ We couldn't be happier, congratulations to our Saffron!!!
 \
 Instagram photos [here](https://www.instagram.com/p/B0i2bJnht3i/)
 
-[Rope AA](https://www.youtube.com/watch?v=nL_0n7MrAeQ&list=UUjL65Cnt9yJ6cKUiE5UYafA&index=2)[Clubs AA](https://www.youtube.com/watch?v=oM37GFJvLyA&list=UUjL65Cnt9yJ6cKUiE5UYafA&index=1)[Ribbon Final](https://www.youtube.com/watch?v=gRIbVruXouA&list=UUjL65Cnt9yJ6cKUiE5UYafA&index=3)
+[Rope AA](https://www.youtube.com/watch?v=nL_0n7MrAeQ&list=UUjL65Cnt9yJ6cKUiE5UYafA&index=2) 14.800\
+[Clubs AA](https://www.youtube.com/watch?v=oM37GFJvLyA&list=UUjL65Cnt9yJ6cKUiE5UYafA&index=1) 15.600\
+[Ribbon Final](https://www.youtube.com/watch?v=gRIbVruXouA&list=UUjL65Cnt9yJ6cKUiE5UYafA&index=3) 13.500
 
 Full results [here](https://www.british-gymnastics.org/news-and-events/british-championships/championship-series#results)
 
