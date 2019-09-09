@@ -1,6 +1,6 @@
 ---
 published: true
-title: Ritam Cup 2019 - Beograd Srbija
+title: FIG Ritam Cup 2019 - Beograd Srbija
 date: 2019-04-21T17:13:35.685Z
 ---
 Huge congratulations to our junior Saffron Severn for having represented GBR for her very first time at the FIG Ritam Cup tournament in Belgrade.
