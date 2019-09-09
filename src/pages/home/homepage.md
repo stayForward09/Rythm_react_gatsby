@@ -18,11 +18,10 @@ All Coaches, Teachers, and Volunteers are CRB checked and have passed Safeguardi
 
 All gymnasts must register to the British Gymnastics.
 
-
-
 - - -
 
-**_Upcoming event_**  
+_**Upcoming event**_  
 
-* **New Season** starts on September Monday 2nd
-* **Portimao FIG tournament** - Representing _team GBR_ our junior gymnasts _Saffron Severn_ and _Leyla Yilmaz_ will attend the international tournament
+* **30th October - 4th November - Happy Cup, Ghent Belgium Team 🏴󠁧󠁢󠁥󠁮󠁧󠁿**
+* **23th/24th of November - Open Championships Pre-Espoir & Espoir**
+* **1st December - English Championship L4**
