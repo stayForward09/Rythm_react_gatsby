@@ -20,8 +20,8 @@ All gymnasts must register to the British Gymnastics.
 
 - - -
 
-_**Upcoming event**_  
+**_Upcoming event_**  
 
 * **30th October - 4th November - Happy Cup, Ghent Belgium Team 🏴󠁧󠁢󠁥󠁮󠁧󠁿**
-* **23th/24th of November - Open Championships Pre-Espoir & Espoir**
+* **23rd/24th of November - Open Championships Pre-Espoir & Espoir**
 * **1st December - English Championship L4**
