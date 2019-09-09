@@ -14,7 +14,7 @@ Leyla Yilmaz performed 3 out of 4 brand new routines clean.
 Well done to all team GB gymnasts for the great competition and good luck for the new season!
 
 IG pictures [here](https://www.instagram.com/p/B2BZ3H-h6wE/)\
-Facebook post [here](<<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D2341860299245218%26id%3D787019504729313&width=500" width="500" height="751" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>>)\
+Facebook post \[here](<<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D2341860299245218%26id%3D787019504729313&width=500" width="500" height="751" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>>)\
 BG post [here](https://www.british-gymnastics.org/news-and-events/news/latest-news/8625-success-in-portugal-for-rhythmic-gymnasts)
 
 ![](/assets/70388935_2341859752578606_2079050044287221760_n.jpg)
