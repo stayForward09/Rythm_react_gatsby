@@ -26,3 +26,4 @@ _**Upcoming event**_
 * **16th/17th of November -** [**London Open Championships**](https://www.british-gymnastics.org/event/10035/london-open-rhythmic-level-345) **\- London**
 * **23rd/24th of November -** [**Open Championships** ](https://www.british-gymnastics.org/event/9280/rhythmic-open-apparatus-espoir-and-pre-junior-and-group-league-round-3-2019)**Pre-Espoir & Espoir - Stoke-on-Trent**
 * **1st December - English Championship L4 - CANCELLED EVENT**
+* **13th of December - XMas Show - New City College SPACe**
