@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Happy Cup, Ghent Belgium Team \U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
+title: "FIG Happy Cup, Ghent Belgium Team \U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
 date: 2019-11-02T12:04:17.845Z
 ---
 **Saffron** and **Leyla** for _Team England_ 🏴󠁧󠁢󠁥󠁮󠁧󠁿
@@ -12,4 +12,5 @@ Saffron has performed for the last time her junior rope routine receiving a good
 Leyla has performed her best ball routine (13.600) followed by a good rope routine (12.200). On the second day the other 2 apparatus did not go as planned but still good for the beginning of the season.
 
 \
-<https://www.instagram.com/p/B4crHjghDAX/>
+IG pictures [here](https://www.instagram.com/p/B4crHjghDAX/)\
+Facebook album by ph. Ulrich Faßbender [here](https://www.facebook.com/photo.php?fbid=2534244503288308&set=a.2533649193347839&type=3&theater)
