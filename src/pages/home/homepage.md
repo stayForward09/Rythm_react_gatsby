@@ -20,10 +20,9 @@ All gymnasts must register to the British Gymnastics.
 
 - - -
 
-_**Upcoming event**_  
+**_Upcoming event_**  
 
-* **30th October - 4th November - Happy Cup, Ghent Belgium Team 🏴󠁧󠁢󠁥󠁮󠁧󠁿**
 * **16th/17th of November -** [**London Open Championships**](https://www.british-gymnastics.org/event/10035/london-open-rhythmic-level-345) **\- London**
 * **23rd/24th of November -** [**Open Championships** ](https://www.british-gymnastics.org/event/9280/rhythmic-open-apparatus-espoir-and-pre-junior-and-group-league-round-3-2019)**Pre-Espoir & Espoir - Stoke-on-Trent**
 * **1st December - English Championship L4 - CANCELLED EVENT**
-* **13th of December - XMas Show - New City College SPACe**
+* **13th of December -** [**Xmas Show**](https://www.facebook.com/events/805265553260892/?notif_t=plan_user_associated&notif_id=1573731571568387) **\- New City College SPACe**
