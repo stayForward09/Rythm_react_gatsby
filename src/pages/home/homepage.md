@@ -20,9 +20,10 @@ All gymnasts must register to the British Gymnastics.
 
 - - -
 
-**_Upcoming event_**  
+_**Upcoming event**_  
 
-* **16th/17th of November -** [**London Open Championships**](https://www.british-gymnastics.org/event/10035/london-open-rhythmic-level-345) **\- London**
-* **23rd/24th of November -** [**Open Championships** ](https://www.british-gymnastics.org/event/9280/rhythmic-open-apparatus-espoir-and-pre-junior-and-group-league-round-3-2019)**Pre-Espoir & Espoir - Stoke-on-Trent**
 * **1st December - English Championship L4 - CANCELLED EVENT**
-* **13th of December -** [**Xmas Show**](https://www.facebook.com/events/805265553260892/?notif_t=plan_user_associated&notif_id=1573731571568387) **\- New City College SPACe**
+* **13th of December -** [**Xmas Show**](https://www.facebook.com/events/805265553260892/?notif_t=plan_user_associated¬if_id=1573731571568387) **\- New City College SPACe**
+* **11th/12th of January -** [**Friendly International Tournament**](https://www.instagram.com/p/B4jmq3SItp-/) **\- Udine 🇮🇹**
+* **20th-25th of January - GBR Squad - Lilleshall**
+* **1st/2nd of February - BQT**
