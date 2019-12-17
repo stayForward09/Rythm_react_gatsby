@@ -4,7 +4,7 @@ title: 6th London Championships - Redbridge
 date: 2019-11-17T12:30:47.092Z
 ---
 Well done to all our girls who competed at the 5th London Championships, first competition of the season and lots of new routines, great start!! \
-7 Golds, 5 Silvers and 4 Bronzes!
+7 Golds, 5 Silvers and 4 Bronzes and two special prizes: Miss Technique Adriana and Miss Elegance Dana!!!
 
 **Level 3:**
 
