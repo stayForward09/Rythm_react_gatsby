@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Bath Open Championships '
+title: Bath Open Championships 2019
 date: 2019-07-07T14:21:23.350Z
 ---
 Great results from Bath, our gymnasts won lots of medals and 3 amazing special prizes:
