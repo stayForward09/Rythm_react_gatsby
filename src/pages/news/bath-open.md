@@ -1,6 +1,6 @@
 ---
 published: true
-title: BATH OPEN 2018
+title: Bath Open Championships 2018
 date: 2018-06-03T18:25:12.703Z
 ---
 One of our favourite competition of the year in a marvellous place!
