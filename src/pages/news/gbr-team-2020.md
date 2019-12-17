@@ -12,3 +12,6 @@ Huge **CONGRATULATIONS** to _Saffron Severn_, _Leyla Yilmaz_ and _Adriana Lyshak
 **Huge well done to our gymnasts and coaches!**
 
 ![](/assets/img-20191213-wa0041.jpg)
+
+Espoir Official Selection results [here](https://www.british-gymnastics.org/technical-information/selection/rhythmic/11032-gbr-rhythmic-foundation-selection-announcement-2020/file)\
+Junior and Senior Official Selection results [here](https://www.british-gymnastics.org/technical-information/selection/rhythmic/11015-gbr-performance-pathway-selection-announcement-juniors-seniors-groups/file)
