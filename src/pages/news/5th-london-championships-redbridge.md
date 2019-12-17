@@ -16,7 +16,7 @@ Well done to all our girls who competed at the 5th London Championships, first c
 3rd Vasilisa - Rope
 
 2009:\
-Tehila - Clubs
+5th Tehila - Clubs
 
 2008:\
 6th Kaela - Hoop\
