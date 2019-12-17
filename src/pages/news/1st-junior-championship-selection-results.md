@@ -1,6 +1,6 @@
 ---
 published: true
-title: 1st Junior Championship - Selection Results
+title: 1st Junior World Championships - Selection Results
 date: 2019-06-12T14:37:49.453Z
 ---
 We are extremely proud of our gymnast Saffron Severn who has won the last selection event and has been confirmed to represent GBR at the 1st Junior World Championship which will be held in Moscow RUS from 19th to 21st of July.
