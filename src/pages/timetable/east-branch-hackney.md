@@ -5,8 +5,10 @@ monday: ''
 tuesday: ''
 wednesday: ''
 friday: |+
+  17:00 - 21:00 - Squad
+  17:30 - 18:30 - Adult Recreational Group
   18:00 - 19:30 - Recreational
-  18:00 - 21:00 - Squad
+
 
 saturday: |-
   14:00 - 15:30 - Recreational
