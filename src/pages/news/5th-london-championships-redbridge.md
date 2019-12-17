@@ -1,12 +1,12 @@
 ---
 published: true
-title: 5th London Championships - Redbridge
+title: 6th London Championships - Redbridge
 date: 2019-11-17T12:30:47.092Z
 ---
 Well done to all our girls who competed at the 5th London Championships, first competition of the season and lots of new routines, great start!! \
 7 Golds, 5 Silvers and 4 Bronzes!
 
-Level 3:
+**Level 3:**
 
 2011:\
 7th Jessica - Free
@@ -27,7 +27,7 @@ Tehila - Clubs
 4th Emilia - Clubs\
 7th Saba - Clubs
 
-Level 4:
+**Level 4:**
 
 2010:\
 1st Elizabeth L. - Ball\
@@ -57,7 +57,9 @@ Level 4:
 1st Livia - Rope\
 2nd Dana - Rope
 
-Senior L1/2:
+**Senior L1/2:**
 
 1st Yoana - Hoop\
 1st Alina - Clubs
+
+IG Pictures [here](https://www.instagram.com/p/B5ASYxOhZlu/)
