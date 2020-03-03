@@ -2,11 +2,14 @@
 published: true
 title: East Branch - Hackney 2019/2020
 monday: ''
-tuesday: ''
+tuesday: |-
+  From April
+  17:00 - 21:00 - Squad
+  17:30 - 19:00 - Recreational
 wednesday: ''
 friday: |+
   17:00 - 21:00 - Squad
-  17:30 - 18:30 - Adult Recreational Group
+  19:30 - 20:30 - Adult Recreational Group
   18:00 - 19:30 - Recreational
 
 
