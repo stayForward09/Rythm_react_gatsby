@@ -1,6 +1,6 @@
 ---
 published: true
-title: 2020 Spring London Championships
+title: 2020 - Spring London Championships
 date: 2020-03-01T14:46:50.081Z
 ---
 Well done to all our gymnasts that competed at the London Championships:
