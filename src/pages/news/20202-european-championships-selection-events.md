@@ -1,6 +1,6 @@
 ---
 published: true
-title: 20202 - European Championships Selection Events
+title: 2020 - European Championships Selection Events
 date: 2020-02-29T14:23:22.150Z
 ---
 Our junior gymnasts Dana and Leyla and our senior Saffron have attended the first 2 selection events and the test ranking after which:
