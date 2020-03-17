@@ -20,9 +20,11 @@ All gymnasts must register to the British Gymnastics.
 
 ![](/assets/img_5457.png)
 
+Picture by GBDANCESTARS
+
 - - -
 
-_**Upcoming event**_  
+**_Upcoming event_**  
 
 * **20th of March - European Championships 3rd Selection Event**
 * ~~\*\*21st/22nd of March - Open Championships - Stoke on Trent~~ CANCELLED\*\*
