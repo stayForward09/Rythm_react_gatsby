@@ -35,7 +35,7 @@ _Level 4_
 
 **Akari** 8th Ribbon (Junior)
 
-__
+
 
 _Level 5_
 
@@ -49,7 +49,5 @@ _Level 1/2_
 **Yoana** 1st Ribbon (Senior)🥇
 
 **Kinga** 3rd Ball (Senior)🥉
-
-
 
 Have a look [here](https://www.instagram.com/stories/highlights/18053733583223995/?hl=en)
