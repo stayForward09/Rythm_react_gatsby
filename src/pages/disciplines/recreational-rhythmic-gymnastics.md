@@ -13,4 +13,6 @@ Our monthly fees are:
 
 Please enquiry to receive further information
 
-![]()
+![](/assets/rhythmic-192-edit.jpg)
+
+Picture by [GBDANCESTARS](https://www.instagram.com/gbswimstars_gbdancestars/?hl=en)
