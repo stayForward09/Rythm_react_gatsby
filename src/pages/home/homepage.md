@@ -18,11 +18,13 @@ All Coaches, Teachers, and Volunteers are CRB checked and have passed Safeguardi
 
 All gymnasts must register to the British Gymnastics.
 
+![](/assets/img_5457.png)
+
 - - -
 
-**_Upcoming event_**  
+_**Upcoming event**_  
 
 * **20th of March - European Championships 3rd Selection Event**
-* ~~**21st/22nd of March - Open Championships - Stoke on Trent~~ CANCELLED**
-* ~~**28th/29th of March - Regional Grades~~ CANCELLED**
-* ~~**1st/6th of April -** [**World Cup**](https://www.gymnastics.sport/site/events/detail.php?id=14962#loaded) **Series - Pesaro Italy~~ 🇮🇹POSTPONED**
+* ~~\*\*21st/22nd of March - Open Championships - Stoke on Trent~~ CANCELLED\*\*
+* ~~\*\*28th/29th of March - Regional Grades~~ CANCELLED\*\*
+* ~~**1st/6th of April -** [**World Cup**](https://www.gymnastics.sport/site/events/detail.php?id=14962#loaded) \*\*Series - Pesaro Italy~~ 🇮🇹POSTPONED\*\*
