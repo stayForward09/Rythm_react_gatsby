@@ -5,7 +5,7 @@ date: 2020-03-01T14:46:50.081Z
 ---
 Well done to all our gymnasts that competed at the London Championships:
 
-__\
+\
 _Level 3_
 
 **Jessica** 1st Free 1st Rope (U9) 🥇🥇
@@ -14,7 +14,7 @@ _Level 3_
 
 **Emilia** 6th Clubs 2nd Ribbon (Junior) 🥈
 
-__\
+\
 _Level 4_
 
 **Elizabeth** **L.** 4th Free 3rd Rope (U10) 🥉
@@ -35,7 +35,8 @@ _Level 4_
 
 **Akari** 8th Ribbon (Junior)
 
-__\
+__
+
 _Level 5_
 
 **Leyla** 1st Ribbon 2nd Rope 4th Clubs (Junior)🥇🥈
