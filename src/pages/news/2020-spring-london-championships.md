@@ -35,8 +35,7 @@ _Level 4_
 
 **Akari** 8th Ribbon (Junior)
 
-__\
-__\
+\
 _Level 5_
 
 **Leyla** 1st Ribbon 2nd Rope 4th Clubs (Junior)🥇🥈
