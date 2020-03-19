@@ -2,6 +2,8 @@
 published: true
 title: Rhythmic Excellence
 ---
+![](/assets/80351351-0631-4dc0-a8ea-4b69ce6d0530-1-.jpg)
+
 **Season 2019/2020 information available**
 
 Rhythmic Excellence is a highly professional Rhythmic Gymnastics school founded in 2015 by Stefano Sirianni and Eleonora Baio. “Excellence” as in the type of training we provide for our gymnasts to meet the individual needs of each performer. Our aim is to work in performing arts, sport development and promotion, encouraging and enabling gymnasts, especially young children, to understand, appreciate and become more involved in gymnastics. Students will have the chance to participate in Gymnastics Home & International competitions, shows and events. We welcome children and adults of all ages with the goal of training to ensure the best outcome for each gymnast. Those principles in order are:
@@ -24,7 +26,7 @@ Picture by GBDANCESTARS
 
 - - -
 
-**_Upcoming event_**  
+_**Upcoming event**_  
 
 * **20th of March - European Championships 3rd Selection Event**
 * ~~\*\*21st/22nd of March - Open Championships - Stoke on Trent~~ CANCELLED\*\*
