@@ -26,9 +26,9 @@ Picture by GBDANCESTARS
 
 - - -
 
-_**Upcoming event**_  
+**_Upcoming event_**  
 
-* **20th of March - European Championships 3rd Selection Event**
+* ~~\*\*20th of March - European Championships 3rd Selection Event~~ CANCELLED\*\*
 * ~~\*\*21st/22nd of March - Open Championships - Stoke on Trent~~ CANCELLED\*\*
 * ~~\*\*28th/29th of March - Regional Grades~~ CANCELLED\*\*
 * ~~**1st/6th of April -** [**World Cup**](https://www.gymnastics.sport/site/events/detail.php?id=14962#loaded) \*\*Series - Pesaro Italy~~ 🇮🇹POSTPONED\*\*
