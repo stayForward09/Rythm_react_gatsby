@@ -2,7 +2,7 @@
 published: true
 title: Rhythmic Excellence
 ---
-## ~_**Rhythmic Excellence team is still working and will keep training online for the season. We plan to be back at the gym from September, please check on our socials or email us and we'll keep you updated. Stay safe!~**_ 
+## _**Rhythmic Excellence team is still working and will keep training online for the season. We plan to be back at the gym from September, please check on our socials or email us and we'll keep you updated. Stay safe!**_ 
 
 **Season 2019/2020 information available**
 
