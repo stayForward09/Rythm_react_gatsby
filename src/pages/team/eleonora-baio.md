@@ -3,6 +3,7 @@ published: true
 position: 1
 title: Eleonora Baio
 avatar: /assets/eleonora-baio.jpg
+details: test
 ---
 > UKCC Level 3 Rhythmic Gymnastics Coach
 >
