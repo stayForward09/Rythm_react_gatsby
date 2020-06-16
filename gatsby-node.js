@@ -8,6 +8,7 @@ exports.createPages = ({ actions, graphql }) => {
   const newsTemplate = path.resolve('src/templates/news.js');
   const disciplineTemplate = path.resolve('src/templates/discipline.js');
   const legalTemplate = path.resolve('src/templates/legal.js');
+  const teamMemberTemplate = path.resolve('src/templates/teamMember.js');
 
   return graphql(`
     {
@@ -40,6 +41,8 @@ exports.createPages = ({ actions, graphql }) => {
         template = disciplineTemplate;
       } else if (node.fields && node.fields.category === 'legal') {
         template = legalTemplate;
+      } else if (node.fields && node.fields.category === 'team') {
+        template = teamMemberTemplate;
       } else {
         return;
       }
@@ -71,6 +74,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         name: 'slug',
         node,
         value: `/legal${value}`,
+      });
+    } else if (/^.+\/team\/.+/.test(node.fileAbsolutePath)) {
+      createNodeField({
+        name: 'slug',
+        node,
+        value: `/team${value}`,
       });
     } else {
       createNodeField({
@@ -109,28 +118,28 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         value: 'home',
       });
     } else if (/^.+\/legal\/.+/.test(node.fileAbsolutePath)) {
-      // Dynamically add a `legal` category to team members
+      // Dynamically add a `legal` category
       createNodeField({
         name: 'category',
         node,
         value: 'legal',
       });
     } else if (/^.+\/socials\/.+/.test(node.fileAbsolutePath)) {
-      // Dynamically add a `legal` category to team members
+      // Dynamically add a `socials` category
       createNodeField({
         name: 'category',
         node,
         value: 'socials',
       });
     } else if (/^.+\/medals\/.+/.test(node.fileAbsolutePath)) {
-      // Dynamically add a `legal` category to team members
+      // Dynamically add a `medals` category
       createNodeField({
         name: 'category',
         node,
         value: 'medals',
       });
     } else if (/^.+\/timetable\/.+/.test(node.fileAbsolutePath)) {
-      // Dynamically add a `legal` category to team members
+      // Dynamically add a `timetable` category
       createNodeField({
         name: 'category',
         node,

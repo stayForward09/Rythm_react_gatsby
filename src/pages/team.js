@@ -34,6 +34,7 @@ class Team extends Component {
                 name={teamMembers.node.frontmatter.title}
                 picture={teamMembers.node.frontmatter.avatar}
                 content={teamMembers.node.html}
+                slug={teamMembers.node.fields.slug}
                 onActive={id => this.bindActive(id)}
                 onDismiss={this.bindActive}
                 active={this.state.activeMember === key}
@@ -66,6 +67,10 @@ export const pageQuery = graphql`
       edges {
         node {
           html
+          fields {
+            slug
+            category
+          }
           frontmatter {
             title
             avatar
