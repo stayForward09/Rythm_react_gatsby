@@ -2,6 +2,9 @@
   "name": "rhythmicexcellence.london",
   "description": "RhythmicExcellence website",
   "version": "1.4.5",
+  "engines": {
+    "node": "10.17.0"
+  },
   "author": "andreasonny83 <andreasonny83@gmail.com>",
   "homepage": "https://github.com/RhythmicExcellence/rhythmicexcellence.london#readme",
   "bugs": {
