@@ -2,7 +2,7 @@
 published: true
 title: Rhythmic Excellence
 ---
-![](/assets/80351351-0631-4dc0-a8ea-4b69ce6d0530-1-.jpg)
+## ~_**Rhythmic Excellence team is still working and will keep training online for the season. We plan to be back at the gym from September, please check on our socials or email us and we'll keep you updated. Stay safe!~**_ 
 
 **Season 2019/2020 information available**
 
@@ -26,7 +26,7 @@ Picture by GBDANCESTARS
 
 - - -
 
-_**Upcoming event**_  
+**_Upcoming event_**  
 
 * **25th of June** - _Zoom Recreational and Squad Tournament_
 * **16th of July** - _Zoom End of the year Display_
