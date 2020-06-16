@@ -1,6 +1,6 @@
 ---
 published: true
-position: 8
+position: 6
 title: Jelena Tihonova
 avatar: /assets/jelena-tihonova.jpg
 ---
