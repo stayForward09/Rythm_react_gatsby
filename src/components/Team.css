@@ -209,6 +209,11 @@
         }
       }
     }
+
+    & .TeamMember__content__readmore {
+      display: block;
+      text-align: right;
+    }
   }
 
   &:hover:not(.active) {

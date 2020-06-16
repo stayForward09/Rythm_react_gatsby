@@ -83,7 +83,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    medals: allMarkdownRemark(filter: {fields: {category: {eq: "medals"}}}) {
+    medals: allMarkdownRemark(filter: { fields: { category: { eq: "medals" } } }) {
       edges {
         node {
           frontmatter {
@@ -108,6 +108,24 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+          }
+        }
+      }
+    }
+    team: allMarkdownRemark(
+      filter: { fields: { category: { eq: "team" } } }
+      sort: { fields: [frontmatter___position], order: ASC }
+      limit: 10
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            link
           }
         }
       }
