@@ -2,8 +2,8 @@
 published: true
 title: Rhythmic Excellence
 ---
-## **_The Rhythmic Excellence team is still working and will keep training online for the season. We plan to be back at the gym from September. Please check our social media pages or email us for updates. Stay safe!_**
-
+## _**The Rhythmic Excellence team is still working and will keep training online for the season. We plan to be back at the gym from September. Please check our social media pages or email us for updates. Stay safe!**_
+- - -
 
 
 **Rhythmic Excellence** is a highly professional Rhythmic Gymnastics school founded in April 2015 by _Stefano Sirianni_ and _Eleonora Baio_. \
@@ -33,7 +33,7 @@ Picture by GBDANCESTARS
 
 - - -
 
-_**Upcoming event**_  
+**_Upcoming event_**  
 
 * **25th of June** - _Zoom Recreational and Squad Tournament_
 * **16th of July** - _Zoom End of the year Display_
