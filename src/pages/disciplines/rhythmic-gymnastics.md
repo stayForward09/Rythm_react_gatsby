@@ -7,25 +7,23 @@ Rhythmic Gymnastics is the perfect combination of sport and art, linking express
 
 ## Our rhythmic gymnastics training encompasses
 
-* Conditioning, stretching, expression, coordination and endurance training
-* Technical body difficulties under the FIG (2016/2019) Rhythmic Gymnastic code of point
-* Technical apparatus difficulty under the FIG (2016/2019)Rhythmic Gymnastic code of point
-* Ballet
-* Creation of Individual and Group routines
-* Competitions and events performances
+* **Fitness** (Conditioning, endurance, agility and strength),
+  stretching (kinetic, static-active and static-passive flexibility), expression (body language, emotions communication), coordination (balance, precision)
+* **Technical body difficulties** under the FIG (2016/2020) Rhythmic Gymnastics code of point
+* **Technical apparatus difficulty** under the FIG (2016/2020) Rhythmic Gymnastic code of point
+* **Ballet**
+* Creation of Individual and Group **routines**
+* **Competitions** and events performances
 
 ![](/assets/img-20180513-wa0048.jpg)
 
-Season 2019/2020 - Information will be uploaded by July 25th
+Season 2019/2020 
 
-* **Squad** Selected gymnasts only Level 3, 4 and 5
+* **Squad** Selected gymnasts only - Level 3, 4 and 5
+* **Young Squad** Selected gymnasts only -preparation for level 3, 4 and 5
 
 ![Saffron Severn at the British Championships 2018](/assets/disciplines-rhythmic-gymnastics.jpg)
 
-The FIG formally recognised this discipline in 1961, first as modern gymnastics, then as rhythmic sportive gymnastics, and finally as rhythmic gymnastics.
 
-Rhythmic Gymnastics is a Gymnastics discipline and Individual and Group Olympic Sport (since 1984 – individual competition and 1996 – group competition).
-
-Individual gymnasts must perform a 1.30 min routine with different apparatus including: Rope, Hoop, Ball, Clubs and Ribbon. Groups (formed of 5 gymnasts) will perform two routines of the duration of 2.30; One routine with the same equipment and another one with 2 different chosen apparatus.
 
 <img src="/assets/british-gymnastics-logo.png" alt="British Gymnastics logo" style="width:300px;border-radius:0;" />
