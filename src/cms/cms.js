@@ -49,6 +49,21 @@ CMS.registerEditorComponent({
 });
 
 CMS.registerEditorComponent({
+  id: 'profileImages',
+  label: 'Profile Description Image',
+  fields: [
+    { name: 'id', label: 'Image', widget: 'image' },
+    { name: 'description', label: 'Description', widget: 'string' },
+  ],
+  toBlock: function(obj) {
+    return `<img src="${obj.id}" alt="${obj.description}"/>`;
+  },
+  toPreview: function(obj) {
+    return `<img src="${obj.id}" alt="${obj.description}"/>`;
+  },
+});
+
+CMS.registerEditorComponent({
   id: 'quote',
   label: 'Quote',
   fields: [
