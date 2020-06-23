@@ -5129,10 +5129,10 @@ gatsby-plugin-postcss@^2.0.0:
     "@babel/runtime" "^7.0.0"
     postcss-loader "^3.0.0"
 
-gatsby-plugin-prefetch-google-fonts@^1.0.11:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-prefetch-google-fonts/-/gatsby-plugin-prefetch-google-fonts-1.4.0.tgz#4b796adc6f33438530dd6cd9202581a66bc8f73f"
-  integrity sha512-XdQ5zyLoTAGqCSOW5ISdIs5RsUX9OdKcB8Dg4IZtdX+h5bKildGuVdjU5Ilwm3fo69tvNvGBKbZCcOh4A4ytpQ==
+gatsby-plugin-prefetch-google-fonts@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-prefetch-google-fonts/-/gatsby-plugin-prefetch-google-fonts-1.4.3.tgz#0557879c7ba0085e4d53107699a8c1073bd52d0e"
+  integrity sha512-rrNGpdLkSEQWksM1A1cJnL/wuu9GLfAl8oPQgpn3cmpKd4jnXk+nbLyQOwKQlRYSrzpju59dY8oyf4UfSFbqPg==
   dependencies:
     "@babel/runtime" "^7.2.0"
     clean-css "^4.2.1"
