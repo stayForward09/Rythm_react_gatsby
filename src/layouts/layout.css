@@ -88,3 +88,38 @@ p + p {
   opacity: 1;
   height: initial;
 }
+
+.otro-blockquote {
+  font-size: 1.1em;
+  width:90%;
+  margin:40px auto;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #5143ea ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote::before {
+  font-family:Arial;
+  content: "\201C";
+  color:#5143ea;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after {
+  content: '';
+}
+
+.otro-blockquote span {
+  display:block;
+  color:#444;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
