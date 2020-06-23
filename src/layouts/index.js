@@ -94,7 +94,10 @@ const Layout = ({ children, location }) => {
               { name: 'author', content: 'RhythmicExcellence' },
               { name: 'generator', content: 'RhythmicExcellence' },
               { name: 'revisit-after', content: '1 month' },
-              { name: 'google-site-verification', content: 'AdG0E4n-7R9oAEUqBKEXRwgWuRpHMMQv4IVYxOaLMQw' },
+              {
+                name: 'google-site-verification',
+                content: process.env.GATSBY_GOOGLE_API_KEY,
+              },
             ]}
           >
             <html lang="en" />
