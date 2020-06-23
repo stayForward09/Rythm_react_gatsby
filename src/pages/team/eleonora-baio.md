@@ -23,7 +23,7 @@ details: >-
   <img src="/assets/img_1805.jpg" alt="undefined"/>
 
 
-  <blockquote class="otro-blockquote">She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite\\*\\*She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite<span>Amane</span></blockquote>
+  <blockquote class="otro-blockquote">She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite. She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite<span>Amane</span></blockquote>
 
 
   <blockquote class="otro-blockquote">Eleonora was really welcoming when i first came to the club which was really nice because it made me feel comfortable moving to a new club<span>Elizabeth P.</span></blockquote>
