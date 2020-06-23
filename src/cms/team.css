@@ -12,7 +12,7 @@
   margin: 0;
 }
 
-.team img {
+.team img.avatar {
   max-width: 22em;
   border-radius: 50%;
 }
