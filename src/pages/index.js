@@ -22,7 +22,7 @@ class Index extends Component {
       <Layout location={location}>
         <IndexPage
           data={data}
-          apiKey="AIzaSyBSTxTuLLnTs7oRrOAC8vUBHBmcKVW06Wo"
+          apiKey={process.env.GATSBY_GOOGLE_MAPS_API_KEY}
           height={height}
           zoom={zoom}
         />
