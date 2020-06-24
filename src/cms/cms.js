@@ -16,19 +16,33 @@ CMS.registerEditorComponent({
   id: 'youtube',
   label: 'YouTube',
   fields: [{ name: 'id', label: 'YouTube Video ID', widget: 'string' }],
-  pattern: /^youtube (\S+)$/,
+  pattern: /^<a class="youtubeVideo" href="https:\/\/youtu\.be\/(\S+)"><img alt="YouTube Video" src="http:\/\/img\.youtube\.com\/vi\/\S+" \/><\/a>$/,
   fromBlock: function(match) {
     return {
       id: match[1],
     };
   },
   toBlock: function(obj) {
-    return `youtube ${obj.id}`;
+    return `<a class="youtubeVideo" href="https://youtu.be/${
+      obj.id
+    }"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
   },
   toPreview: function(obj) {
-    return (
-      '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="YouTube Video"/>'
-    );
+    return `<a class="youtubeVideo" href="https://youtu.be/${
+      obj.id
+    }"><img alt="YouTube Video" src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" /></a>`;
+  },
+});
+
+CMS.registerEditorComponent({
+  id: 'linebreak',
+  label: 'Line Break',
+  pattern: /^---$/,
+  toBlock: function() {
+    return `---`;
+  },
+  toPreview: function() {
+    return `<hr />`;
   },
 });
 
@@ -40,14 +54,16 @@ CMS.registerEditorComponent({
     { name: 'link', label: 'Link', widget: 'string' },
     { name: 'description', label: 'Description', widget: 'string' },
   ],
-  pattern: /^linkimage (\S+)$/,
+  pattern: /^\[!\[(\S+)?\]\((\S+)\)]\((\S+)\)$/,
   fromBlock: function(match) {
     return {
-      id: match[1],
+      description: match[1],
+      id: match[2],
+      link: match[3],
     };
   },
   toBlock: function(obj) {
-    return `linkimage ${obj.id}`;
+    return `[![${obj.description}](${obj.id})](${obj.link})`;
   },
   toPreview: function(obj) {
     return `<a href="${obj.link}"><img src="${obj.id}" alt="${obj.description}"/></a>`;

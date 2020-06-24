@@ -8,7 +8,7 @@ const NewsPost = ({ data }) => {
 
   return (
     <Layout>
-      <div className="container">
+      <div className="container news">
         <h2 className="title">{post.frontmatter.title}</h2>
         <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
