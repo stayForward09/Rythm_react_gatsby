@@ -61,15 +61,15 @@ CMS.registerEditorComponent({
     { name: 'id', label: 'Quote', widget: 'string' },
     { name: 'author', label: 'Author', widget: 'string' },
   ],
-  pattern: /^-quote --author-(.+) --quote-(.+)$/,
+  pattern: /^<blockquote class="otro-blockquote">(.+)<span>(.+)<\/span><\/blockquote>$/,
   fromBlock: function(match) {
     return {
-      author: match[1],
-      id: match[2],
+      id: match[1],
+      author: match[2],
     };
   },
   toBlock: function(obj) {
-    return `-quote --author-${obj.author} --quote-${obj.id}`;
+    return `<blockquote class="otro-blockquote">${obj.id}<span>${obj.author}</span></blockquote>`;
   },
   toPreview: function(obj) {
     return `<blockquote class="otro-blockquote">${obj.id}<span>${obj.author}</span></blockquote>`;
