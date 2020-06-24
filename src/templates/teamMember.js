@@ -17,7 +17,7 @@ const NewsPost = ({ data }) => {
           alt={post.frontmatter.title}
         />
         <h2 className="teamMember__title">{post.frontmatter.title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: post.frontmatter.details }} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   );
