@@ -43,5 +43,3 @@ Francesca and Asia are with us for quite a few years now and I couldn’t be hap
 <blockquote class="otro-blockquote">Eleonora was really welcoming when i first came to the club which was really nice because it made me feel comfortable moving to a new club<span>Elizabeth P.</span></blockquote>
 
 <blockquote class="otro-blockquote">It is just coming up to a year me being with Rhythmic Excellence but it feels like so much longer as they made me feel so welcome when I joined. I have funny memories from the Italy competition, one was when we were having dinner one night I tried ordering the table whilst Eleonora was whispering in my ear what to say, one of the biggest reasons why I love the coaches here at Rhythmic Excellence is that even though they are strict we still have fun times.<span>Rebecca</span></blockquote>
-
-youtube wZXx98Uz4sE
