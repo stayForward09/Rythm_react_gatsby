@@ -36,7 +36,7 @@ I never have enough of RG, since I first discovered it until now I haven’t sto
 I love my team: with Stefano it has been love at first sight, we understand each other just looking into our eyes, we make a great partnership even though we don’t miss out discussing sometimes; we’ve been through a lot together and he’s been supportive and helpful as a brother can be. We recently had the privilege to prepare a young gymnast to participate in the World Championships and I’ll never forget all the emotions we felt during that time. The weekend after that incredible event we won the junior national title with our top gymnast Saffron Severn, we became the happiest coaches in the world!
 Francesca and Asia are with us for quite a few years now and I couldn’t be happier, I feel we are a young team but a big family. 
 
-![](/assets/img_1805.jpg)
+![](/assets/img_1821.jpg)
 
 <blockquote class="otro-blockquote">She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite. She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite<span>Amane</span></blockquote>
 
