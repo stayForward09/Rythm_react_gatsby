@@ -2,7 +2,7 @@
 published: true
 position: 7
 title: Helpers
-titles: blank
+titles: ""
 avatar: /assets/rhythmicexcellence2.jpg
 details: >-
   Our lovely assistants Inna, Isabel, Jelena and Renie are always there to help
