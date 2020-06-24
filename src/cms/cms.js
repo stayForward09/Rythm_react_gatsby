@@ -23,7 +23,7 @@ CMS.registerEditorComponent({
     };
   },
   toBlock: function(obj) {
-    return 'youtube ' + obj.id;
+    return `youtube ${obj.id}`;
   },
   toPreview: function(obj) {
     return (
@@ -40,26 +40,17 @@ CMS.registerEditorComponent({
     { name: 'link', label: 'Link', widget: 'string' },
     { name: 'description', label: 'Description', widget: 'string' },
   ],
+  pattern: /^linkimage (\S+)$/,
+  fromBlock: function(match) {
+    return {
+      id: match[1],
+    };
+  },
   toBlock: function(obj) {
-    return `[![${obj.description}](${obj.id})](${obj.link})`;
+    return `linkimage ${obj.id}`;
   },
   toPreview: function(obj) {
     return `<a href="${obj.link}"><img src="${obj.id}" alt="${obj.description}"/></a>`;
-  },
-});
-
-CMS.registerEditorComponent({
-  id: 'profileImages',
-  label: 'Profile Description Image',
-  fields: [
-    { name: 'id', label: 'Image', widget: 'image' },
-    { name: 'description', label: 'Description', widget: 'string' },
-  ],
-  toBlock: function(obj) {
-    return `<img src="${obj.id}" alt="${obj.description}"/>`;
-  },
-  toPreview: function(obj) {
-    return `<img src="${obj.id}" alt="${obj.description}"/>`;
   },
 });
 
@@ -70,8 +61,15 @@ CMS.registerEditorComponent({
     { name: 'id', label: 'Quote', widget: 'string' },
     { name: 'author', label: 'Author', widget: 'string' },
   ],
+  pattern: /^-quote --author-(.+) --quote-(.+)$/,
+  fromBlock: function(match) {
+    return {
+      author: match[1],
+      id: match[2],
+    };
+  },
   toBlock: function(obj) {
-    return `<blockquote class="otro-blockquote">${obj.id}<span>${obj.author}</span></blockquote>`;
+    return `-quote --author-${obj.author} --quote-${obj.id}`;
   },
   toPreview: function(obj) {
     return `<blockquote class="otro-blockquote">${obj.id}<span>${obj.author}</span></blockquote>`;
