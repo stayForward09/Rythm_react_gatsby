@@ -110,10 +110,10 @@ collections:
           max: 99,
         }
       - { name: 'title', label: 'Name', widget: 'string' }
-      - { name: 'titles', label: 'Titles', widget: 'text' }
+      - { name: 'titles', label: 'Titles', widget: 'text', required: false }
       - { name: 'avatar', label: 'avatar', widget: 'image' }
-      - { name: 'details', label: 'Description', widget: 'text' }
-      - { name: 'body', label: 'More details', widget: 'markdown' }
+      - { name: 'details', label: 'Description', widget: 'text', required: false }
+      - { name: 'body', label: 'More details', widget: 'markdown', required: false }
 
   - name: 'disciplines'
     label: 'Disciplines'

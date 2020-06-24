@@ -32,7 +32,7 @@
   text-transform: capitalize;
 }
 
-blockquote p + blockquote p {
+.team blockquote p + .team blockquote p {
   margin-top: 0.6rem;
 }
 
