@@ -19,13 +19,29 @@ img {
   height: auto;
 }
 
+blockquote {
+  margin-left: 1.45rem;
+  margin-right: 1.45rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
 .otro-blockquote {
-  font-size: 1.4em;
-  width:60%;
-  margin:50px auto;
+  font-size: 1em;
+  width:95%;
+  margin:30px auto;
   font-style:italic;
-  color: #555555;
-  padding:1.2em 30px 1.2em 75px;
+  color: #555;
+  padding:1.2em 26px 1.2em 54px;
   border-left:8px solid #5143ea ;
   line-height:1.6;
   position: relative;
@@ -48,7 +64,7 @@ img {
 
 .otro-blockquote span {
   display:block;
-  color:#333333;
+  color:#444;
   font-style: normal;
   font-weight: bold;
   margin-top:1em;
