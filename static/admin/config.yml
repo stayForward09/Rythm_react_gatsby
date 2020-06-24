@@ -112,8 +112,8 @@ collections:
       - { name: 'title', label: 'Name', widget: 'string' }
       - { name: 'titles', label: 'Titles', widget: 'text' }
       - { name: 'avatar', label: 'avatar', widget: 'image' }
-      - { name: 'body', label: 'Description', widget: 'text' }
-      - { name: 'details', label: 'More details', widget: 'markdown' }
+      - { name: 'details', label: 'Description', widget: 'text' }
+      - { name: 'body', label: 'More details', widget: 'markdown' }
 
   - name: 'disciplines'
     label: 'Disciplines'
