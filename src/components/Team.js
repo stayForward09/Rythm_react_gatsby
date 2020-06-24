@@ -32,7 +32,7 @@ export const TeamMember = ({
       </div>
       <div className="TeamMember__container__content" onClick={() => onActive(id)}>
         <div className="TeamMember__container__picture">
-          <img alt={name} src={picture} width="200px" />
+          <div className="TeamMember__avatar" style={{ backgroundImage: `URL(${picture})` }} />
         </div>
         <div className="TeamMember__content__copy__container">
           <h4>{name}</h4>
