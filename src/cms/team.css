@@ -16,3 +16,17 @@
   max-width: 22em;
   border-radius: 50%;
 }
+
+.team blockquote {
+  margin-top: 0.5rem;
+  margin-left: 0;
+  border-left: 4px solid hsl(247, 91%, 67%);
+  padding-left: 1em;
+  font-size: 1rem;
+  line-height: 1.4em;
+  text-transform: capitalize;
+}
+
+blockquote p + blockquote p {
+  margin-top: 0.6rem;
+}

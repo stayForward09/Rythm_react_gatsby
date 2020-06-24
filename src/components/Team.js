@@ -9,6 +9,7 @@ export const TeamMember = ({
   name,
   id,
   content,
+  titles,
   picture,
   slug,
   active,
@@ -36,6 +37,9 @@ export const TeamMember = ({
         <div className="TeamMember__content__copy__container">
           <h4>{name}</h4>
           <div className="TeamMember__content__copy">
+            <blockquote>
+              {titles && titles.split('\n').map((title, key) => <p key={key}>{title}</p>)}
+            </blockquote>
             <div dangerouslySetInnerHTML={{ __html: content }} />
             <Link to={slug} className="TeamMember__content__readmore">
               Read More...

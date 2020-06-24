@@ -29,9 +29,10 @@ class Team extends Component {
             {this.props.data.allMarkdownRemark.edges.map((teamMembers, key) => (
               <TeamMember
                 show={this.state.show}
-                key={`team-member-${key}`}
+                key={teamMembers.node.fields.slug}
                 id={key}
                 name={teamMembers.node.frontmatter.title}
+                titles={teamMembers.node.frontmatter.titles}
                 picture={teamMembers.node.frontmatter.avatar}
                 content={teamMembers.node.html}
                 slug={teamMembers.node.fields.slug}
@@ -73,6 +74,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            titles
             avatar
           }
         }

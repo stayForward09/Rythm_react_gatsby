@@ -5,7 +5,8 @@ export const TeamPreview = createClass({
     const h = window.h;
     const entry = this.props.entry;
 
-    const title = entry.getIn(['data', 'title']);
+    const name = entry.getIn(['data', 'title']);
+    const titles = entry.getIn(['data', 'titles']);
     const image = entry.getIn(['data', 'avatar']);
     const body = this.props.widgetFor('body');
     const details = this.props.widgetFor('details');
@@ -19,7 +20,8 @@ export const TeamPreview = createClass({
             className: 'avatar',
           })
         : null,
-      h('h1', {}, title && title.toUpperCase()),
+      h('h1', {}, name && name.toUpperCase()),
+      h('blockquote', {}, titles.split('\n').map(title => h('p', {}, title))),
       h('p', { className: 'description' }, body),
       h('p', { className: 'details' }, details)
     );
