@@ -10,6 +10,12 @@ a:hover {
   color: var(--primary-1);
 }
 
+.news a img {
+  display: block;
+  border: 1.5px solid #9E9E9E;
+  padding: 8px;
+}
+
 h1,
 h2,
 h3,
