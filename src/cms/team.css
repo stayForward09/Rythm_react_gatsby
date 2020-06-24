@@ -17,8 +17,13 @@
   border-radius: 50%;
 }
 
+.team img:not(.avatar) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .team blockquote {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-left: 0;
   border-left: 4px solid hsl(247, 91%, 67%);
   padding-left: 1em;
@@ -29,4 +34,8 @@
 
 blockquote p + blockquote p {
   margin-top: 0.6rem;
+}
+
+.separator {
+  width: 100%;
 }
