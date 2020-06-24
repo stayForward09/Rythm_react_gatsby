@@ -79,7 +79,10 @@
     text-align: center;
   }
 
-  & .TeamMember__container__picture img {
+  & .TeamMember__avatar {
+    width: 200px;
+    height: 200px;
+    background-repeat: round;
     border-radius: 50%;
     filter: brightness(130%) contrast(50%) sepia(75%) saturate(50%);
     transition: filter 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -99,13 +102,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 1.5em;
+    padding: 0em;
+
+    @media all and (min-height: 800px) and (min-width: 800px) {
+      padding: 1.5em;
+    }
 
     & h4 {
       color: var(--primary-1);
     }
 
-    & img {
+    & .TeamMember__avatar {
       cursor: auto;
     }
 
@@ -114,14 +121,14 @@
       margin: 0 auto;
       padding: 0;
       height: 100%;
-      max-width: 550px;
+      width: 100%;
       border-radius: 8px;
       background: white;
       animation: popup 750ms ease-in-out;
       animation-fill-mode: both;
 
-      @media all and (min-height: 630px) {
-        max-width: 400px;
+      @media all and (min-height: 800px) and (min-width: 800px) {
+        width: 600px;
       }
     }
 
@@ -130,23 +137,31 @@
       flex-direction: column;
       text-align: center;
       height: 100%;
+      width: 100%;
     }
 
     & .TeamMember__container__picture {
       width: 100%;
 
-      & img {
+      & .TeamMember__avatar {
         display: block;
         border-radius: 0;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
         filter: none;
         width: 100%;
-        max-height: 0;
-        object-fit: cover;
+        height: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
 
-        @media all and (min-height: 630px) {
-          max-height: 390px;
+        @media all and (min-height: 800px) and (min-width: 680px) {
+          height: 400px;
+        }
+
+        @media all and (min-height: 800px) and (min-width: 800px) {
+          height: 600px;
+          background-position: center center;
         }
       }
     }
@@ -173,8 +188,8 @@
     & .TeamMember__dismiss {
       display: block;
       position: absolute;
-      right: -1px;
-      top: -1px;
+      right: 25px;
+      top: 25px;
       width: 3.3em;
       height: 3.3em;
       border-radius: 50%;
@@ -183,7 +198,7 @@
       z-index: 99;
       transform: translate(1.2em, -1.2em);
 
-      @media all and (min-width: 600px) {
+      @media all and (min-width: 800px) and (min-height: 800px) {
         right: 4px;
         top: 0;
         width: 3.6em;
@@ -219,7 +234,7 @@
   &:hover:not(.active) {
     cursor: pointer;
 
-    & img {
+    & .TeamMember__avatar {
       filter: unset;
     }
   }
