@@ -23,7 +23,7 @@ details: >-
   Francesca and Asia are with us for quite a few years now and I couldn’t be happier, I feel we are a young team but a big family. 
 
 
-  <img src="/assets/img_1805.jpg" alt="undefined"/>
+  ![](/assets/img_1805.jpg)
 
 
   <blockquote class="otro-blockquote">She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite. She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite<span>Amane</span></blockquote>
