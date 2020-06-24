@@ -44,4 +44,4 @@ Francesca and Asia are with us for quite a few years now and I couldn’t be hap
 
 -quote --author-Rebecca --quote-It is just coming up to a year me being with Rhythmic Excellence but it feels like so much longer as they made me feel so welcome when I joined. I have funny memories from the Italy competition, one was when we were having dinner one night I tried ordering the table whilst Eleonora was whispering in my ear what to say, one of the biggest reasons why I love the coaches here at Rhythmic Excellence is that even though they are strict we still have fun times.
 
-youtube C0DPdy98e4c
+youtube wZXx98Uz4sE
