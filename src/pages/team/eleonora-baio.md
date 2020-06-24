@@ -26,13 +26,13 @@ details: >-
   ![](/assets/img_1805.jpg)
 
 
-  <blockquote class="otro-blockquote">She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite. She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite<span>Amane</span></blockquote>
+  -quote --author-Amane --quote-She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite. She is an awesome, kind, funny and open coach and one of the best coaches I’ve ever met. Loved making new routine with her and it’s already my favourite
 
 
-  <blockquote class="otro-blockquote">Eleonora was really welcoming when i first came to the club which was really nice because it made me feel comfortable moving to a new club<span>Elizabeth P.</span></blockquote>
+  -quote --author-Elizabeth P. --quote-Eleonora was really welcoming when i first came to the club which was really nice because it made me feel comfortable moving to a new club
 
 
-  <blockquote class="otro-blockquote">It is just coming up to a year me being with Rhythmic Excellence but it feels like so much longer as they made me feel so welcome when I joined. I have funny memories from the Italy competition, one was when we were having dinner one night I tried ordering the table whilst Eleonora was whispering in my ear what to say, one of the biggest reasons why I love the coaches here at Rhythmic Excellence is that even though they are strict we still have fun times.<span>Rebecca</span></blockquote>
+  -quote --author-Rebecca --quote-It is just coming up to a year me being with Rhythmic Excellence but it feels like so much longer as they made me feel so welcome when I joined. I have funny memories from the Italy competition, one was when we were having dinner one night I tried ordering the table whilst Eleonora was whispering in my ear what to say, one of the biggest reasons why I love the coaches here at Rhythmic Excellence is that even though they are strict we still have fun times.
 ---
 Eleonora moved to London in 2014. As a gymnast she trained in Italy with Arianna Pittoni,
 Barbara Bernardo and Monica Visintin (former Italian National Gymnast).
