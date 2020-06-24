@@ -7,25 +7,18 @@ titles: |-
   Rhythmic Excellence Head Coach
 avatar: /assets/eleonora-baio.jpg
 details: >-
-  Eleonora moved to London in 2014. As a gymnast she trained in Italy with
-  Arianna Pittoni,
+  Eleonora moved to London in 2014 after having concluded her job as head coach
+  at the club Gruppo Coreografico Stelline that she started as an assistant in
+  2008. 
 
-  Barbara Bernardo and Monica Visintin (former Italian National Gymnast).
+  As a gymnast she trained in Italy with Arianna Pittoni, Barbara Bernardo and Monica Visintin (former Italian National Team gymnast) at the club Societa' ginnastica Triestina (one of the most prestigious multi sports society with more than 100 years of activity).
 
-  She also studied and refined her techniques attending a Slovenian school as part of the Squad team of Olga Pavletic and
+  At the age of 11, Eleonora entered a Slovenian school as part of the Squad team of Olga Pavletic and Branka Vajngerl (Olympic Slovenian Brevet Judge). As a coach, she has attended countless courses, workshops and masterclasses, having the privilege to be taught by Maura Rota, Luca Zanforlini, Stefan Ivanov and Ruben
 
-  Branka Vajngerl (Olympic Slovenian Judge). She has also been trained on a
-
-  number of courses by Maura Rota, Luca Zanforlini, Stefan Ivanov and Ruben
-
-  Orihuela Gavilan and keep updated attending all the GBR national squad training camps
-
-  (since RE gymnast Saffron Severn has been selected) led by Maria Gateva
-
-  (former Bulgarian champion) and ballet coach Suzanne Haslam.
+  Orihuela Gavilan and now she keeps up to date by attending all the GBR and English national squad training camps led by Maria Gateva (former Bulgarian champion) and ballet coach Suzanne Haslam.
 
 
-  Eleonora is currently part of the GBR coaching team.
+  Eleonora is currently part of the GBR academy coaching team.
 ---
 Eleonora has an infinite love for RG that leads her to travel to any possible destination to watch live the main events (world championships, world cups and many more).
 
