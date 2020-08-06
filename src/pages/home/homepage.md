@@ -2,7 +2,7 @@
 published: true
 title: Rhythmic Excellence
 ---
-## ***The Rhythmic Excellence team is now enjoying the summer break and is planning the season ahead. Please check our social media pages or email us for updates. Stay safe!***
+## ***The Rhythmic Excellence team is now enjoying the summer break and is planning the season ahead. Please check our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
 
 - - -
 
