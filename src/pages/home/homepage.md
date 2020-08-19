@@ -8,7 +8,7 @@ title: Rhythmic Excellence
 
 - - -
 
-**Rhythmic Excellence** is a highly professional Rhythmic Gymnastics school founded in April 2015 by *Stefano Sirianni* and *Eleonora Baio*. \
+**[Rhythmic Excellence](https://www.youtube.com/watch?v=qRxN1Yk1A5w)** is a highly professional Rhythmic Gymnastics school founded in April 2015 by *Stefano Sirianni* and *Eleonora Baio*. \
 **Rhythmic** is the name of the gymnastics discipline we love, study and teach, **Excellence** is the goal toward which we strive. Our aim is to give each gymnast the opportunity to develop to their fullest potential, so we work on meeting the needs of each individual athlete. We promote athletic development and psycho-physical growth, encouraging and enabling gymnasts, especially young children, to understand their minds and bodies, and to appreciate sport. 
 
 *What is Rhythmic Gymnastics?* \
