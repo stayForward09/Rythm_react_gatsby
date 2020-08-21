@@ -11,6 +11,6 @@ The minimum age to attend the course is 15.
 
 Tuesday and Friday 6-7 at SPACe (online in September 2020)
 
-![adult gymnastics](/assets/adult-gymnastics.jpeg)
+![adult gymnastics](/assets/img_4426.jpg)
 
-Our adult competitive group on the highest podium step last April at the regional 1-3 Tournament.
+Our adult competitive gymnasts Yoana and Kinga at the last London Championships (March 2020)
