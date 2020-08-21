@@ -9,9 +9,7 @@ The minimum age to attend the course is 15.
 
 ## Our timetable
 
-**2019/2020 Season will be confirmed by July 10th**
-
-
+Tuesday and Friday 6-7 at SPACe (online in September 2020)
 
 ![adult gymnastics](/assets/adult-gymnastics.jpeg)
 
