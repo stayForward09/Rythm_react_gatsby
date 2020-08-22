@@ -21,3 +21,5 @@ Please enquiry to receive further information
 ![adult gymnastics](/assets/img_4426.jpg)
 
 Our adult competitive gymnasts Yoana and Kinga at the last London Championships (March 2020)
+
+![](/assets/2b735cce-230f-46d9-af10-ca9d8abf6151.jpg)
