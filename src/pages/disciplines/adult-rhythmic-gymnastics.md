@@ -1,6 +1,6 @@
 ---
 published: true
-position: 1
+position: 3
 title: Adult Rhythmic Gymnastics
 ---
 Adult Gymnastics provides a new opportunity to try out an amazing sport. Build your strength, flexibility and control and test yourself in a range of different activities.
