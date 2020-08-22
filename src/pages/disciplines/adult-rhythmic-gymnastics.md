@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 position: 1
 title: Adult Rhythmic Gymnastics
 ---
