@@ -3,7 +3,7 @@ published: true
 position: 9
 title: Helpers
 titles: ""
-avatar: /assets/website.jpg
+avatar: /assets/rhythmicexcellence-copy.jpg
 details: >-
   Our lovely assistants Inna, Jelena and Renie are always there to help you and
   answer your questions.
