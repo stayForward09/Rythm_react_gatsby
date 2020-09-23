@@ -21,7 +21,7 @@ export const TeamPreview = createClass({
           })
         : null,
       h('h1', {}, name && name.toUpperCase()),
-      h('blockquote', {}, titles.split('\n').map(title => h('p', {}, title))),
+      h('blockquote', {}, titles && titles.split('\n').map(title => h('p', {}, title))),
       h('p', { className: 'details' }, details),
       h('hr', { className: 'separator' }),
       h('p', { className: 'description' }, body)
