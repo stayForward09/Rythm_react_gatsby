@@ -1,6 +1,6 @@
 ---
 published: true
-position: 6
+position: 8
 title: Jelena Tihonova
 titles: Welfare Officer
 avatar: /assets/jelena-tihonova.jpg
