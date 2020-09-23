@@ -1,6 +1,6 @@
 ---
 published: true
-position: 7
+position: 9
 title: Helpers
 titles: ""
 avatar: /assets/website.jpg
