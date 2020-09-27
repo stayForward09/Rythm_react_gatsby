@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.png)
 
-## ***The Rhythmic Excellence team is now enjoying the summer break and is planning the season ahead. Please check our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
+## ***The Rhythmic Excellence team is now back to the gym, check out our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
 
 - - -
 
