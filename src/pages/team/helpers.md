@@ -1,6 +1,6 @@
 ---
 published: true
-position: 9
+position: 10
 title: Helpers
 titles: ""
 avatar: /assets/rhythmicexcellence-copy.jpg
