@@ -78,7 +78,7 @@ export const Footer = ({ disciplines, legals, socials }) => (
           <div className="version">RhythmicExcellence v{`${VERSION}`}</div>
 
           <div>
-            &copy; Copyright 2018-2019{' '}
+            &copy; Copyright 2018-{new Date().getFullYear() + ' '}
             <a href="https://about.me/andreasonny83" target="_blank" rel="noopener noreferrer">
               Sonny
             </a>{' '}
