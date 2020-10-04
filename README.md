@@ -8,3 +8,17 @@
 <h1 align="center">
   Rhythmic Excellence
 </h1>
+
+## Development
+
+Using Docker, create an image with
+
+```sh
+$ make build
+```
+
+Then run a container with
+
+```sh
+$ make dev
+```
