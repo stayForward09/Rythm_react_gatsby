@@ -11,5 +11,8 @@ install:
 
 dev:
 	docker run --rm -it -v ${PWD}:/demo sonny/lighthouse-demo /bin/bash
+	
+interactive:
+	docker run --rm -it -v ${PWD}:/demo --name rhythmicexcellence sonny/lighthouse-demo /bin/bash
 
 audit: build install run_audit
