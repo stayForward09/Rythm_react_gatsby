@@ -9,15 +9,15 @@
   Rhythmic Excellence
 </h1>
 
-## Development
+## Audit
 
-Using Docker, create an image with
+Using Docker you can test the website performance with
 
 ```sh
 $ make build
 ```
 
-Then run a container with
+Then run Lighthouse-CI with
 
 ```sh
 $ make dev

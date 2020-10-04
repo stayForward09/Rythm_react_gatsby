@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.20.0",
     "create-react-class": "^15.6.3",
     "gatsby": "^2.1.2",
     "gatsby-plugin-google-fonts": "^1.0.1",
@@ -44,7 +44,7 @@
     "react-dom": "^16.5.1",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
-    "react-icons": "^3.1.0",
+    "react-icons": "^3.11.0",
     "slate": "^0.41.1"
   },
   "scripts": {
