@@ -6,7 +6,7 @@ titles: |-
   Sports Psychologist
   UKCC Level 3 Rhythmic Gymnastics Coach
   National Judge
-avatar: /assets/francesca-cavallerio.jpg
+avatar: /assets/screenshot-2020-10-06-at-12.53.13.png
 details: |-
   Level 3 rhythmic gymnastics coach and national judge, Francesca started her
   career as a gymnast at 4 in her hometown in Italy. Although gymnastics was
