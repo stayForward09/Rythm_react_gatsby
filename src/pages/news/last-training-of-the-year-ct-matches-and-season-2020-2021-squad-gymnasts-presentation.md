@@ -22,7 +22,7 @@ Absents Jessica, Emilia and Saffron
 
 The matches have been won by ***Leyla's team***, well done to all the competitors!
 
-![](/assets/img_9360.jpg)
+![](/assets/screenshot-2021-01-04-at-13.35.45.png)
 
 Dana, Leyla, Amane, Adriana and Miya
 
