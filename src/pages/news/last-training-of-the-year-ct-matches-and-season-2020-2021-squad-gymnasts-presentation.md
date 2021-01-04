@@ -6,6 +6,8 @@ date: 2021-01-04T12:10:22.693Z
 ---
 Our gymnasts have spent a fun and challenging last training day. Our squad girls have performed their new season routines live on zoom:
 
+
+
 1. Dana - ball
 2. Adriana - clubs
 3. Miya - ball
