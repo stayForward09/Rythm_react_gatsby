@@ -37,5 +37,5 @@ Picture by GBDANCESTARS
 
 ***Upcoming event***  
 
-* **25th of June** - *Zoom Recreational and Squad Tournament*
-* **16th of July** - *Zoom End of the year Display*
+*  **Monday January 4th** - Classes resume
+* **End of January**  - BQT Mock Assessment
