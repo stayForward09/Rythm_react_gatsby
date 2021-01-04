@@ -1,28 +1,24 @@
 ---
 published: true
-title: Last training of the year, CT, Matches and Season 2020/2021 Squad
+title: 2020 Last training of the year, CT, Matches and Season 2020/2021 Squad
   gymnasts' presentation
 date: 2021-01-04T12:10:22.693Z
 ---
-
-
-
-
 Our gymnasts have spent a fun and challenging last training day. Our squad girls have performed their new season routines live on zoom:
 
-1. Dana - ball\
-2. Adriana - clubs\
-3. Miya - ball\
-4. Elizabeth L - ribbon\
-5. Pola - ball\
-6. Rebecca - ball\
-7. Leyla - hoop\
-8. Amane - ball\
+1. Dana - ball
+2. Adriana - clubs
+3. Miya - ball
+4. Elizabeth L - ribbon
+5. Pola - ball
+6. Rebecca - ball
+7. Leyla - hoop
+8. Amane - ball
 9. Elizabeth P - ball
 
 Absents Jessica, Emilia and Saffron
 
-\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~
+\~\~~
 
 The matches have been won by ***Leyla's team***, well done to all the competitors!
 
@@ -34,7 +30,7 @@ Dana, Leyla, Amane, Adriana and Miya
 
 Saffron, Rebecca, Elizabeth P, Pola and Elizabeth L
 
-\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~
+\~\~~
 
 We have presented our squad gymnasts for the season 2020/2021:
 
