@@ -5,10 +5,11 @@ monday: ""
 tuesday: |
   17:00 - 21:00 - Squad
   17:00 - 19:00 - Foundation Squad
-  18:00 - 19:30 - Recreational - online
+  18:00 - 19:30 - Recreational 
 wednesday: ""
-thursday: 16:30 - 19:30 - Squad - online
+thursday: ""
 friday: |+
+  10:00 - 15:00 - Academy
   17:00 - 21:00 - Squad
   17:00 - 19:00 - Foundation Squad - online
   18:00 - 19:00 - Adult Recreational Group 
