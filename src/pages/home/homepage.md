@@ -4,7 +4,7 @@ title: Rhythmic Excellence
 ---
 ![](/assets/re.png)
 
-## ***The Rhythmic Excellence team is now getting ready to go back to the gym on April 12th, check out our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
+## ***The Rhythmic Excellence team is now Open! Check out our [Timetable page](https://www.rhythmicexcellence.london/timetable) and social media pages or email us for updates. Stay safe!***
 
 - - -
 
