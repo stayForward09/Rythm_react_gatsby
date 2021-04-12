@@ -7,6 +7,7 @@ titles: |-
   Dance Director
   UKCC Level 2 Rhythmic Gymnastics Coach
   National Judge
+  British Gymnastics Technical committee Member
 avatar: /assets/stefano-sirianni.jpg
 details: |-
   Fun and experienced ballet and modern dance teacher to students of all skill
@@ -18,7 +19,7 @@ details: |-
   choreographer for rhythmic gymnastic training. In 2013 Stefano qualified as a
   rhythmic gymnastic level 3 judge.
 
-  Stefano is currently attending the GB National Judging course.
+  Stefano is currently attending the UKCC level 3 coaching course.
 ---
 Fun and experienced ballet and modern dance teacher to students of all skill
 levels and ages. Versatile and ambitious in a variety of dance idioms as a
