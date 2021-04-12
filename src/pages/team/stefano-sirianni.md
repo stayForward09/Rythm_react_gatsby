@@ -4,7 +4,6 @@ position: 2
 title: Stefano Sirianni
 titles: |-
   Ballet Teacher
-  Dance Director
   UKCC Level 2 Rhythmic Gymnastics Coach
   National Judge
   British Gymnastics Technical committee Member
