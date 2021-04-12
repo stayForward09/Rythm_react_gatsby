@@ -4,15 +4,16 @@ title: East Branch - Hackney 2020/2021
 monday: ""
 tuesday: |
   17:00 - 21:00 - Squad
-  17:00 - 19:00 - Foundation Squad
+  17:30 - 19:30 - Foundation Squad
   18:00 - 19:30 - Recreational 
+  19:00 - 20:00 - Adult Fitness (from May 17th)
 wednesday: ""
 thursday: ""
 friday: |+
   10:00 - 15:00 - Academy
   17:00 - 21:00 - Squad
-  17:00 - 19:00 - Foundation Squad - online
-  18:00 - 19:00 - Adult Recreational Group 
+  17:30 - 19:30 - Foundation Squad ONLINE
+  18:00 - 19:00 - Adult RG Recreational Group (from May 17th)
 
 
 saturday: |
